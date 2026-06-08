@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "style_guide/video_analysis/motion_test_01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "motion_test_01"
             }
           }
         ]
@@ -90,7 +90,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,11 +194,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3299d675e0e77ccf",
+  "active": "bdccc80b73d2e380",
   "lastOpenFiles": [
-    "Welcome.md"
+    "Welcome.md",
+    "style_guide/video_analysis/motion_test_01.md",
+    "style_guide/video_analysis",
+    "style_guide"
   ]
 }
