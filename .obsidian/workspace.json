@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3c8203c8cac1b49f",
+        "id": "ed97d9b3759ba77a",
         "type": "tabs",
         "children": [
           {
-            "id": "aac876977b9f03c3",
+            "id": "7cff63c70ccb047e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_SCENES/scene_001_001.md",
+                "file": "00_CANON_FILES/ai_execution_protocol.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "scene_001_001"
+              "title": "ai_execution_protocol"
             }
           }
         ]
@@ -195,8 +195,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aac876977b9f03c3",
+  "active": "7cff63c70ccb047e",
   "lastOpenFiles": [
+    "00_CANON_FILES/universe_rules.md",
+    "STYLE_DISTILLATION/style_experiments.md",
+    "STYLE_DISTILLATION/style_scorecard.md",
+    "STYLE_DISTILLATION/style_001.md",
+    "07_QA_FEEDBACK/qa_template.md",
+    "STYLE_DISTILLATION",
+    "06_PRODUCTION_LOGS/scene_segments.md",
+    "06_PRODUCTION_LOGS/logs.md",
+    "05_YOUTUBE/vid_001_001.md",
+    "04_ASSETS/refs.md",
+    "04_ASSETS/frames.md",
+    "04_ASSETS/videos.md",
+    "04_ASSETS/images.md",
+    "03_PROMPTS/prompt_001_001.md",
+    "00_CANON_FILES/style_lock.md",
+    "02_SCENES/scene_001_001.md",
+    "00_CANON_FILES/no_drift_contract.md",
     "01_CHARACTERS/ren.md.md",
     "02_SCENES/prompt_compiler_spec.md",
     "06_PRODUCTION_LOGS",
@@ -206,28 +223,16 @@
     "00_CANON_FILES/ai_execution_protocol.md",
     "04_ASSETS/assets_version_index.md",
     "04_ASSETS",
-    "00_CANON_FILES/no_drift_contract.md",
-    "02_SCENES/scene_001_001.md",
     "02_EPISODES/episode_OO1.md",
     "05_STYLE_GUIDE/video_analysis.md",
-    "00_CANON_FILES/universe_rules.md",
     "00_CANON_FILES/episode_memory.md",
     "00_CANON_FILES/episode_controller.md",
-    "07_QA_FEEDBACK/qa_template.md",
     "07_QA_FEEDBACK",
     "05_STYLE_GUIDE",
     "02_SCENES",
     "02_EPISODES",
     "04_style_guide/Production_Framework.md",
     "01_CHARACTERS",
-    "00_CANON_FILES",
-    "04_style_guide/Untitled.md",
-    "Untitled.canvas",
-    "02_Characters/Ren.md",
-    "Untitled/mamamia.md",
-    "01_Core_Lore/Universe_rules.md",
-    "04_style_guide/video_analysis/motion_test_01.md",
-    "Untitled.md",
-    "Welcome.md"
+    "Untitled.canvas"
   ]
 }
