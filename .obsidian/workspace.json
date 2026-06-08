@@ -154,12 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "07_EVAL/style_distillation/style_update_queue.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of style_update_queue"
             }
           },
           {
@@ -168,12 +169,12 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -195,7 +196,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7cff63c70ccb047e",
+  "active": "90187ea6f7baf71a",
   "lastOpenFiles": [
     "07_EVAL/style_memory.md",
     "07_EVAL/style_distillation/style_update_queue.md",
