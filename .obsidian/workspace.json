@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_AI_INTERFACE/ai_context_pack.md",
+                "file": "08_AI_INTERFACE/asset_selection_pack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ai_context_pack"
+              "title": "asset_selection_pack"
             }
           }
         ]
@@ -197,14 +197,17 @@
   },
   "active": "7cff63c70ccb047e",
   "lastOpenFiles": [
+    "08_AI_INTERFACE/image_review_pack.md",
+    "08_AI_INTERFACE/script_continuation_pack.md",
+    "08_AI_INTERFACE/asset_selection_pack.md",
+    "08_AI_INTERFACE/style_distillation_pack.md",
+    "08_AI_INTERFACE/ai_context_pack.md",
     "05_PROMPTS/prompt_template.md",
     "06_ASSETS/asset_registry.md",
     "07_EVAL/image_review_schema.md",
     "00_CANON/style_contract.md",
     "07_EVAL/style_drift_log.md",
     "07_EVAL",
-    "08_AI_INTERFACE/export_rules.md",
-    "08_AI_INTERFACE/ai_context_pack.md",
     "03_EPISODES/ep_001.md",
     "08_AI_INTERFACE",
     "03_EPISODES/ep_002.md",
@@ -226,9 +229,6 @@
     "00_CANON/universe_rules.md",
     "00_CANON/ai_execution_protocol.md",
     "STYLE_DISTILLATION/style_ledger.md",
-    "07_QA_FEEDBACK/qa_scorecard.md",
-    "00_CANON/episode_controller.md",
-    "02_SCENES/scene_001_001.md",
     "STYLE_DISTILLATION",
     "06_PRODUCTION_LOGS",
     "05_YOUTUBE",
