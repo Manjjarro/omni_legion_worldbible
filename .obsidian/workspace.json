@@ -203,12 +203,20 @@
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
-      "smart-lookup:Smart Lookup: Open lookup view": false
+      "smart-lookup:Smart Lookup: Open lookup view": false,
+      "smart-templates:Smart Templates: Open template context": false,
+      "smart-context:Smart Context: Open Builder": false,
+      "smart-context:Smart Context: Copy to Clipboard (select depth)": false,
+      "smart-context:Smart Context: List Named Contexts": false
     }
   },
   "active": "8a03d207cb4bd852",
   "lastOpenFiles": [
-    "Untitled",
+    "TEMPLATES",
+    "03_SYSTEM",
+    "02_ASSETS",
+    "01_NODES",
+    "00_CANON",
     "99_AI_MEMORY/active_context.md",
     "01_CHARACTERS/index.md.md",
     "99_AI_MEMORY",
@@ -240,9 +248,6 @@
     "06_ASSETS/videos/rejected.md",
     "06_ASSETS/Untitled",
     "06_ASSETS/videos",
-    "06_ASSETS/images",
-    "07_EVAL",
-    "08_AI_INTERFACE",
     "Untitled.canvas"
   ]
 }
