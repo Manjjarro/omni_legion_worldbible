@@ -11,10 +11,14 @@
             "id": "aac876977b9f03c3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "04_style_guide/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -191,20 +195,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a03d207cb4bd852",
+  "active": "aac876977b9f03c3",
   "lastOpenFiles": [
-    "style_guide/Production_Framework.md",
+    "04_style_guide/Untitled.md",
+    "04_style_guide/Production_Framework.md",
     "Untitled.canvas",
     "02_Characters/Ren.md",
     "Untitled/mamamia.md",
     "Untitled",
     "01_Core_Lore/Universe_rules.md",
     "02_Characters",
-    "style_guide/video_analysis/motion_test_01.md",
+    "04_style_guide/video_analysis/motion_test_01.md",
     "Untitled.md",
     "01_Core_Lore",
     "Welcome.md",
-    "style_guide/video_analysis",
-    "style_guide"
+    "04_style_guide/video_analysis",
+    "04_style_guide"
   ]
 }
