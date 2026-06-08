@@ -11,10 +11,14 @@
             "id": "1d98619303708086",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01_Core_Lore/Universe_rules.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Universe_rules"
             }
           }
         ]
@@ -183,6 +187,9 @@
   },
   "active": "1d98619303708086",
   "lastOpenFiles": [
+    "Untitled.md",
+    "01_Core_Lore/Universe_rules.md",
+    "01_Core_Lore",
     "style_guide/video_analysis/motion_test_01.md",
     "Welcome.md",
     "style_guide/video_analysis",
