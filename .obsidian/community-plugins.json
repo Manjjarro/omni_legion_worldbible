@@ -1,6 +1,7 @@
 [
-  "obsidian-git",
   "realclaudian",
   "github-sync",
-  "onlyworlds-builder"
+  "onlyworlds-builder",
+  "obsidian-git",
+  "copilot"
 ]

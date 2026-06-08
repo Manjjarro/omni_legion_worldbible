@@ -171,6 +171,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "realclaudian:Open Claudian": false,
+      "github-sync:Sync with Remote": false,
+      "onlyworlds-builder:OnlyWorlds sync": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -178,19 +183,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "audio-recorder:Start/stop recording": false,
-      "realclaudian:Open Claudian": false,
-      "github-sync:Sync with Remote": false,
-      "onlyworlds-builder:OnlyWorlds sync": false
+      "audio-recorder:Start/stop recording": false
     }
   },
   "active": "1d98619303708086",
   "lastOpenFiles": [
-    "Untitled.md",
-    "01_Core_Lore/Universe_rules.md",
-    "01_Core_Lore",
     "style_guide/video_analysis/motion_test_01.md",
+    "01_Core_Lore/Universe_rules.md",
+    "Untitled.md",
+    "01_Core_Lore",
     "Welcome.md",
     "style_guide/video_analysis",
     "style_guide"
