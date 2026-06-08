@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_ASSETS/videos/approved.md",
+                "file": "08_AI_INTERFACE/style_distillation_pack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "approved"
+              "title": "style_distillation_pack"
             }
           }
         ]
@@ -197,8 +197,10 @@
   },
   "active": "7cff63c70ccb047e",
   "lastOpenFiles": [
-    "06_ASSETS/videos/rejected.md",
+    "00_CANON/project_mission.md",
+    "08_AI_INTERFACE/master_review_command.md",
     "06_ASSETS/videos/approved.md",
+    "06_ASSETS/videos/rejected.md",
     "06_ASSETS/videos/references.md",
     "06_ASSETS/images/style_tests.md",
     "06_ASSETS/images/rejected.md",
@@ -226,10 +228,8 @@
     "04_SCENES/ep_001_scene_001.md",
     "06_ASSETS/videos.md",
     "05_PROMPTS/prompt_log.md",
-    "06_ASSETS/frames.md",
     "05_PROMPTS",
     "04_SCENES",
-    "02_WORLDBUILDING/enviroment_rules.md",
     "03_EPISODES",
     "02_WORLDBUILDING",
     "STYLE_DISTILLATION",
