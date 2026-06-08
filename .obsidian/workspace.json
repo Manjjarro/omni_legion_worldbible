@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d0be3baaaa41f994",
+        "id": "ae58c8d5ca0df93f",
         "type": "tabs",
         "children": [
           {
-            "id": "1d98619303708086",
+            "id": "b9a69b3f2bc4ac62",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "style_guide/Production_Framework.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Production_Framework"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"resolution\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,12 +169,12 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -177,9 +182,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "realclaudian:Open Claudian": false,
-      "github-sync:Sync with Remote": false,
-      "copilot:Open Copilot Chat": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -188,13 +190,17 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "audio-recorder:Start/stop recording": false,
+      "realclaudian:Open Claudian": false,
+      "github-sync:Sync with Remote": false,
+      "copilot:Open Copilot Chat": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1d98619303708086",
+  "active": "b9a69b3f2bc4ac62",
   "lastOpenFiles": [
-    "Untitled/mamamia.md",
+    "Untitled.canvas",
     "02_Characters/Ren.md",
+    "Untitled/mamamia.md",
     "style_guide/Production_Framework.md",
     "Untitled",
     "01_Core_Lore/Universe_rules.md",
