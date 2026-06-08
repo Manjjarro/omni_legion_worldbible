@@ -2,19 +2,31 @@
 type: media_provenance_registry
 vault_sync: enabled
 ---
+---
+type: asset_registry
+---
 
-# PRODUCTION ASSET REGISTRY
+# ASSET REGISTRY (EPISODE-BASED)
 
-## 1. Character Plate Assets (Isolated Track 3 Elements)
-* **Asset Code:** `AST_CHR_001_A`
-    * **File Path:** `04_ASSETS/images/characters/ren_baseline.png`
-    * **Source Prompt ID:** `P_001_001_A`
-    * **QA Score Validated:** 46/50
-    * **Timeline Layer Destination:** Track 3 (Foreground Layer)
+## Structure Rule
+Assets are grouped by episode, not globally.
 
-## 2. Environment Plate Assets (Track 1 Elements)
-* **Asset Code:** `AST_ENV_001_A`
-    * **File Path:** `04_ASSETS/images/environments/alleyway_base.png`
-    * **Source Prompt ID:** `P_001_001_B`
-    * **QA Score Validated:** 43/50
-    * **Timeline Layer Destination:** Track 1 (Background Plate)
+---
+
+## EPISODE 001
+
+### Images
+- asset_id: ep001_img_001
+  type: character_render
+  source_prompt: p_ep001_s001_a
+  status: stored
+  location: /06_ASSETS/images/ep001/
+
+- asset_id: ep001_img_002
+  type: environment
+  status: rejected
+  reason: style drift (semi-realistic shading)
+
+### Videos
+- asset_id: ep001_vid_001
+  status: pending
