@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "style_guide/Production_Framework.md",
+                "file": "02_Characters/Ren.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Production_Framework"
+              "title": "Ren"
             }
           }
         ]
@@ -196,11 +196,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a03d207cb4bd852",
+  "active": "1d98619303708086",
   "lastOpenFiles": [
+    "style_guide/Production_Framework.md",
     "Untitled",
     "02_Characters/Ren.md",
-    "style_guide/Production_Framework.md",
     "01_Core_Lore/Universe_rules.md",
     "02_Characters",
     "style_guide/video_analysis/motion_test_01.md",
