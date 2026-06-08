@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_ASSETS/asset_registry.md",
+                "file": "04_SCENES/ep_001_scene_001.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "asset_registry"
+              "title": "ep_001_scene_001"
             }
           }
         ]
@@ -195,44 +195,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a03d207cb4bd852",
+  "active": "7cff63c70ccb047e",
   "lastOpenFiles": [
+    "03_EPISODES/ep_002.md",
+    "04_SCENES/ep_001_scene_001.md",
+    "04_SCENES",
+    "03_EPISODES/ep_001.md",
+    "02_WORLDBUILDING/enviroment_rules.md",
+    "03_EPISODES",
+    "02_WORLDBUILDING/progression_system.md",
+    "02_WORLDBUILDING/factions.md",
+    "01_CHARACTERS/ren.md.md",
+    "02_WORLDBUILDING",
+    "01_CHARACTERS/index.md.md",
+    "00_CANON/narrative_logic.md",
+    "00_CANON/style_contract.md",
+    "00_CANON/universe_rules.md",
+    "00_CANON/ai_execution_protocol.md",
+    "06_ASSETS/asset_registry.md",
     "STYLE_DISTILLATION/style_ledger.md",
-    "04_ASSETS/asset_registry.md",
     "07_QA_FEEDBACK/qa_scorecard.md",
     "00_CANON/episode_controller.md",
-    "00_CANON/universe_rules.md",
     "02_SCENES/scene_001_001.md",
     "03_PROMPTS/prompt_001_001.md",
-    "04_ASSETS/images.md",
-    "04_ASSETS/frames.md",
+    "06_ASSETS/images.md",
+    "06_ASSETS/frames.md",
     "03_PROMPTS/prompt_factory_template.md",
-    "01_CHARACTERS/ren.md.md",
-    "00_CANON/ai_execution_protocol.md",
     "00_CANON/style_lock.md",
     "STYLE_DISTILLATION/style_experiments.md",
     "STYLE_DISTILLATION/style_scorecard.md",
     "STYLE_DISTILLATION/style_001.md",
     "07_QA_FEEDBACK/qa_template.md",
     "STYLE_DISTILLATION",
-    "06_PRODUCTION_LOGS/scene_segments.md",
-    "06_PRODUCTION_LOGS/logs.md",
-    "05_YOUTUBE/vid_001_001.md",
-    "04_ASSETS/refs.md",
-    "04_ASSETS/videos.md",
-    "00_CANON_FILES/no_drift_contract.md",
-    "02_SCENES/prompt_compiler_spec.md",
     "06_PRODUCTION_LOGS",
     "05_YOUTUBE",
-    "07_QA_FEEDBACK/prompt_regression_log.md",
     "03_PROMPTS",
-    "04_ASSETS/assets_version_index.md",
-    "04_ASSETS",
+    "06_ASSETS",
     "07_QA_FEEDBACK",
     "05_STYLE_GUIDE",
-    "02_SCENES",
-    "02_EPISODES",
-    "01_CHARACTERS",
     "Untitled.canvas"
   ]
 }
