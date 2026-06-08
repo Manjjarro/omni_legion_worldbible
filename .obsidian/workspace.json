@@ -11,14 +11,10 @@
             "id": "be3be4efe8a93d14",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "99_AI_MEMORY/active_context.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "active_context"
+              "title": "New tab"
             }
           }
         ]
@@ -172,9 +168,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "a9e0cf50982f647d",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -193,13 +199,17 @@
       "realclaudian:Open Claudian": false,
       "github-sync:Sync with Remote": false,
       "copilot:Open Copilot Chat": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "be3be4efe8a93d14",
+  "active": "a9e0cf50982f647d",
   "lastOpenFiles": [
-    "01_CHARACTERS/index.md.md",
     "99_AI_MEMORY/active_context.md",
+    "01_CHARACTERS/index.md.md",
     "99_AI_MEMORY",
     "Untitled",
     "00_CANON/canon_decision_log.md",

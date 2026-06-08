@@ -3,5 +3,10 @@
   "github-sync",
   "copilot",
   "obsidian-git",
-  "split-web-viewer-modifier"
+  "split-web-viewer-modifier",
+  "smart-connections",
+  "smart-lookup",
+  "smart-context",
+  "smart-chatgpt",
+  "smart-templates"
 ]
