@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ae58c8d5ca0df93f",
+        "id": "3c8203c8cac1b49f",
         "type": "tabs",
         "children": [
           {
-            "id": "b9a69b3f2bc4ac62",
+            "id": "aac876977b9f03c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "style_guide/Production_Framework.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Production_Framework"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"resolution\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,12 +191,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9a69b3f2bc4ac62",
+  "active": "8a03d207cb4bd852",
   "lastOpenFiles": [
+    "style_guide/Production_Framework.md",
     "Untitled.canvas",
     "02_Characters/Ren.md",
     "Untitled/mamamia.md",
-    "style_guide/Production_Framework.md",
     "Untitled",
     "01_Core_Lore/Universe_rules.md",
     "02_Characters",
