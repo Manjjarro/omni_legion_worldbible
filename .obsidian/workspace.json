@@ -197,9 +197,12 @@
   },
   "active": "8a03d207cb4bd852",
   "lastOpenFiles": [
+    "06_PRODUCTION_LOGS",
+    "05_YOUTUBE",
+    "07_QA_FEEDBACK/prompt_regression_log.md",
+    "01_CHARACTERS/ren.md.md",
     "03_PROMPTS",
     "00_CANON_FILES/ai_execution_protocol.md",
-    "05_QA_FEEDBACK/prompt_regression_log.md",
     "04_ASSETS/assets_version_index.md",
     "02_SCENES/prompt_compiler_spec.md",
     "04_ASSETS",
@@ -207,12 +210,11 @@
     "02_SCENES/scene_001_001.md",
     "02_EPISODES/episode_OO1.md",
     "05_STYLE_GUIDE/video_analysis.md",
-    "01_CHARACTERS/ren.md.md",
     "00_CANON_FILES/universe_rules.md",
     "00_CANON_FILES/episode_memory.md",
     "00_CANON_FILES/episode_controller.md",
-    "05_QA_FEEDBACK/qa_template.md",
-    "05_QA_FEEDBACK",
+    "07_QA_FEEDBACK/qa_template.md",
+    "07_QA_FEEDBACK",
     "05_STYLE_GUIDE",
     "02_SCENES",
     "02_EPISODES",
@@ -227,8 +229,6 @@
     "02_Characters",
     "04_style_guide/video_analysis/motion_test_01.md",
     "Untitled.md",
-    "01_Core_Lore",
-    "Welcome.md",
-    "04_style_guide/video_analysis"
+    "Welcome.md"
   ]
 }
