@@ -183,7 +183,6 @@
     "hiddenItems": {
       "realclaudian:Open Claudian": false,
       "github-sync:Sync with Remote": false,
-      "onlyworlds-builder:OnlyWorlds sync": false,
       "copilot:Open Copilot Chat": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
