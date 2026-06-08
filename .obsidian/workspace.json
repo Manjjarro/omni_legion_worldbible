@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_CANON/ai_execution_protocol.md",
+                "file": "01_CHARACTERS/ren.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ai_execution_protocol"
+              "title": "ren.md"
             }
           }
         ]
@@ -197,19 +197,19 @@
   },
   "active": "aac876977b9f03c3",
   "lastOpenFiles": [
+    "00_CANON_FILES/ai_execution_protocol.md",
+    "05_QA_FEEDBACK/prompt_regression_log.md",
     "04_ASSETS/assets_version_index.md",
-    "00_CANON/ai_execution_protocol.md",
     "03_SCENES/prompt_compiler_spec.md",
     "04_ASSETS",
-    "00_CANON/no_drift_contract.md",
+    "00_CANON_FILES/no_drift_contract.md",
     "03_SCENES/scene_001_001.md",
     "02_EPISODES/episode_OO1.md",
     "05_STYLE_GUIDE/video_analysis.md",
     "01_CHARACTERS/ren.md.md",
-    "00_CANON/universe_rules.md",
-    "00_CANON/episode_memory.md",
-    "00_CANON/episode_controller.md",
-    "05_QA_FEEDBACK/prompt_regression_log.md",
+    "00_CANON_FILES/universe_rules.md",
+    "00_CANON_FILES/episode_memory.md",
+    "00_CANON_FILES/episode_controller.md",
     "05_QA_FEEDBACK/qa_template.md",
     "05_QA_FEEDBACK",
     "05_STYLE_GUIDE",
@@ -217,7 +217,7 @@
     "02_EPISODES",
     "04_style_guide/Production_Framework.md",
     "01_CHARACTERS",
-    "00_CANON",
+    "00_CANON_FILES",
     "04_style_guide/Untitled.md",
     "Untitled.canvas",
     "02_Characters/Ren.md",
