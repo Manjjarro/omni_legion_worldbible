@@ -16,19 +16,8 @@
               "icon": "lucide-file",
               "title": "New tab"
             }
-          },
-          {
-            "id": "248d0bfa2dcb0739",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,7 +181,7 @@
       "onlyworlds-builder:OnlyWorlds sync": false
     }
   },
-  "active": "8a03d207cb4bd852",
+  "active": "1d98619303708086",
   "lastOpenFiles": [
     "style_guide/video_analysis/motion_test_01.md",
     "Welcome.md",
