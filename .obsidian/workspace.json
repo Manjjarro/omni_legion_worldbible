@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_AI_INTERFACE/asset_selection_pack.md",
+                "file": "06_ASSETS/images.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "asset_selection_pack"
+              "title": "images"
             }
           }
         ]
@@ -197,10 +197,10 @@
   },
   "active": "7cff63c70ccb047e",
   "lastOpenFiles": [
+    "08_AI_INTERFACE/style_distillation_pack.md",
+    "08_AI_INTERFACE/asset_selection_pack.md",
     "08_AI_INTERFACE/image_review_pack.md",
     "08_AI_INTERFACE/script_continuation_pack.md",
-    "08_AI_INTERFACE/asset_selection_pack.md",
-    "08_AI_INTERFACE/style_distillation_pack.md",
     "08_AI_INTERFACE/ai_context_pack.md",
     "05_PROMPTS/prompt_template.md",
     "06_ASSETS/asset_registry.md",
