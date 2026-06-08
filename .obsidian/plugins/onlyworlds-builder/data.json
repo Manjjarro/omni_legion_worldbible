@@ -1,0 +1,11 @@
+{
+  "apiKey": "4657",
+  "apiPin": "4657",
+  "defaultWorld": "",
+  "defaultEmail": "",
+  "defaultCategory": "Character",
+  "individualElementCommands": false,
+  "autoSync": true,
+  "debounceMs": 3000,
+  "showStatusBar": true
+}

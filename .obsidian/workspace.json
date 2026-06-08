@@ -4,40 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "86d20def74e6807a",
+        "id": "d0be3baaaa41f994",
         "type": "tabs",
         "children": [
           {
-            "id": "968cb10bad2a35b2",
+            "id": "1d98619303708086",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "style_guide/video_analysis/motion_test_01.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "motion_test_01"
-            }
-          }
-        ]
-      },
-      {
-        "id": "a21493455a81ffd6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3299d675e0e77ccf",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "248d0bfa2dcb0739",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -57,7 +48,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -90,8 +81,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,13 +185,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "audio-recorder:Start/stop recording": false,
+      "realclaudian:Open Claudian": false,
+      "github-sync:Sync with Remote": false,
+      "onlyworlds-builder:OnlyWorlds sync": false
     }
   },
-  "active": "bdccc80b73d2e380",
+  "active": "8a03d207cb4bd852",
   "lastOpenFiles": [
-    "Welcome.md",
     "style_guide/video_analysis/motion_test_01.md",
+    "Welcome.md",
     "style_guide/video_analysis",
     "style_guide"
   ]
