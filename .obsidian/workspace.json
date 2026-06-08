@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "08_AI_INTERFACE/style_distillation_pack.md",
+                "file": "08_AI_INTERFACE/style_distillation master.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "style_distillation_pack"
+              "title": "style_distillation master"
             }
           }
         ]
@@ -197,6 +197,8 @@
   },
   "active": "7cff63c70ccb047e",
   "lastOpenFiles": [
+    "08_AI_INTERFACE/style_distillation_pack.md",
+    "08_AI_INTERFACE/style_distillation master.md",
     "00_CANON/project_mission.md",
     "08_AI_INTERFACE/master_review_command.md",
     "06_ASSETS/videos/approved.md",
@@ -207,7 +209,6 @@
     "06_ASSETS/images/approved.md",
     "06_ASSETS/images/references.md",
     "06_ASSETS/analysis.md",
-    "08_AI_INTERFACE/style_distillation_pack.md",
     "06_ASSETS/Untitled",
     "06_ASSETS/videos",
     "06_ASSETS/images",
@@ -227,7 +228,6 @@
     "03_EPISODES/ep_002.md",
     "04_SCENES/ep_001_scene_001.md",
     "06_ASSETS/videos.md",
-    "05_PROMPTS/prompt_log.md",
     "05_PROMPTS",
     "04_SCENES",
     "03_EPISODES",
