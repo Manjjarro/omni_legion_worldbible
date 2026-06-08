@@ -174,7 +174,6 @@
       "realclaudian:Open Claudian": false,
       "github-sync:Sync with Remote": false,
       "onlyworlds-builder:OnlyWorlds sync": false,
-      "obsidian-git:Open Git source control": false,
       "copilot:Open Copilot Chat": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
