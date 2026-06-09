@@ -18,6 +18,8 @@ risk_level: low
 type: scene
 id: SCENE_XXX
 depends_on: []
+sequence_order: 1
+duration_sec: 4.0
 scene: ""
 camera: ""
 environment: ""
@@ -28,14 +30,14 @@ version: 1
 # SCENE
 
 ## Scene Description
--
+- 
 
 ## Camera
--
+- 
 
 ## Environment
--
+- 
 
-## Notes
-- static composition preferred
-- minimal motion
+## Motion & Timeline Notes
+- direction: [e.g., slow pan right, static, tracking]
+- pace: [e.g., hyper-lapse, slow-motion]

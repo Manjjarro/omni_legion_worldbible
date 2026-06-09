@@ -4,13 +4,14 @@ id: STYLE_001
 ---
 ---
 type: style
-id: STYLE_XXX
+id: STYLE_001
 version: 1
-stability: 0.7
+stability: 0.8
+tokens_to_strip: ["highly detailed", "4k", "photorealistic", "masterpiece", "stunning"]
 ---
 
-# STYLE BLOCK
-cinematic anime rendering, clean ink lines, flat shading, high contrast lighting
+# STYLE
+cinematic 2D anime, bold ink outlines, flat shading, high contrast lighting
 
 ## Negative Style
-blurry, 3D render, gradient mess, deformed anatomy, text, watermark
+3D render, blur, gradients, text, watermark, anatomy distortion
