@@ -1,1 +1,1 @@
- TABLE type AS "Type", id AS "ID", sequence AS "Seq", stability AS "Stability", continuity_score AS "Cont.", storyboard_status AS "Status", preview_image AS "Preview" FROM "01_NODES" WHERE type = "character" OR type = "scene" OR type = "style" SORT sequence ASC, stability DESC
+TABLE type AS "Type", id AS "ID", sequence AS "Seq", stability AS "Stability", continuity_score AS "Cont.", storyboard_status AS "Status", preview_image AS "Preview" FROM "01_NODES" WHERE type = "character" OR type = "scene" OR type = "style" SORT sequence ASC, stability DESC

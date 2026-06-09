@@ -3,10 +3,15 @@ type: system
 id: PROMPT_ENGINE
 scene: "[[SCENE_001]]"
 ---
+---
+type: system
+id: PROMPT_ENGINE
+scene: "[[SCENE_001]]"
+---
 
 ```dataviewjs
 // ====================================================================
-// PROMPT ENGINE v4.2 — POLISHED FINAL
+// PROMPT ENGINE v4.2 — POLISHED FINAL BUILD
 // ====================================================================
 
 const sceneLink = dv.current().scene;
@@ -37,7 +42,7 @@ if (rigNote && rigNote.shots && rigNote.motion) {
   const shot = rigNote.shots[scene.shot_type] || scene.shot_type || "";
   const motion = rigNote.motion[scene.motion_preset] || scene.motion_preset || "";
   
-  // Hardened string joiner: filters out missing attributes to preserve layout formatting
+  // Clean punctuation stitcher: avoids stray leading/trailing periods automatically
   cameraRig = [shot, motion].filter(Boolean).join(". ").trim();
 }
 
