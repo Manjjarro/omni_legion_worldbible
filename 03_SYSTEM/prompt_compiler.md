@@ -1,83 +1,67 @@
 ```dataviewjs
-let scene = dv.current().scene;
 
-if (!scene) {
-  dv.paragraph("Select a scene in frontmatter.");
+let scenePath = dv.current().scene;
+
+if (!scenePath) {
+  dv.paragraph("⚠️ Set `scene: [[SCENE_XXX]]` in frontmatter.");
   return;
 }
 
-let s = dv.page(scene);
+let s = dv.page(scenePath);
+
 if (!s) {
-  dv.paragraph("Scene not found.");
+  dv.paragraph(`⚠️ Scene not found: ${scenePath}`);
   return;
 }
 
-// -------------------------
-// LOAD STYLE
-// -------------------------
+// --------------------
+// LOAD DEPENDENCIES
+// --------------------
 let style = dv.page(s.style);
 
-// -------------------------
-// LOAD CHARACTERS
-// -------------------------
 let chars = (s.characters ?? [])
   .map(c => dv.page(c))
   .filter(Boolean);
 
-// -------------------------
-// STYLE FILTER (deterministic)
-// -------------------------
-function clean(text, styleNode){
-  if (!text) return "";
+// --------------------
+// CHARACTER BLOCK (SAFE + ENHANCED)
+// --------------------
+let charBlock = chars.map(c => {
+  let anchor = c.identity_anchor || c.name || "Unnamed";
+  return `CHAR: ${anchor}
+STABILITY: ${c.stability ?? 0.5}
+MOTION: ${c.motion_tolerance ?? "low"}`;
+}).join("\n\n");
 
-  let out = text;
+// --------------------
+// MOTION GRAMMAR ENFORCEMENT
+// --------------------
+let motion = s.motion_level ?? "static-first";
 
-  let tokens = styleNode?.tokens_to_strip ?? [];
+// --------------------
+// FINAL PROMPT STRUCTURE
+// --------------------
+let prompt = `PROMPT CORE:
 
-  for (let t of tokens) {
-    out = out.split(t).join("");
-  }
+${charBlock}
 
-  return out.replace(/\s+/g,' ').trim();
-}
+SCENE OBJECTIVE: ${s.objective}
+ENVIRONMENT: ${s.environment}
+CAMERA: ${s.camera}
+DURATION: ${s.duration ?? 4}s
+MOTION MODE: ${motion}
 
-// -------------------------
-// CHARACTER BLOCK
-// -------------------------
-let charBlock = chars.map(c =>
-  `CHAR: ${c.identity_anchor}`
-).join("\n");
+STYLE: ${style?.identity_anchor ?? "default style"}
 
-// -------------------------
-// SCENE CORE
-// -------------------------
-let sceneCore =
-`SCENE: ${s.objective}
-ENV: ${s.environment}
-CAMERA: ${s.camera}`;
+STYLE CORE:
+${style?.["# STYLE CORE"] ?? ""}
 
-// -------------------------
-// FINAL PROMPT
-// -------------------------
-let prompt =
-`${charBlock}
+NEGATIVE:
+${style?.negative ?? "3D, blur, distortion, text, watermark, anatomy errors, motion artifacts"}`;
 
-${sceneCore}
-
-STYLE: ${style?.file?.name ?? "default"}
-
-NEGATIVE: ${style?.negative ?? ""}`;
-
-dv.header(2, "MASTER PROMPT ENGINE");
-dv.code(clean(prompt, style));
-
-// -------------------------
-// TIMELINE LAYER
-// -------------------------
-dv.header(3, "TIMELINE SEQUENCE");
-
-dv.table(
-["Scene", "Order", "Duration"],
-[[s.file.name, s.sequence ?? 1, s.duration ?? 4]]
-);
+// --------------------
+// OUTPUT
+// --------------------
+dv.header(2, "OMNI-LINEAGE MASTER ENGINE");
+dv.code(prompt);
 ```
