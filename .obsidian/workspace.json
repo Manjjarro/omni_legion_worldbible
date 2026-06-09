@@ -225,11 +225,16 @@
       "smart-lookup:Smart Lookup: Open lookup view": false,
       "templater-obsidian:Templater": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "smart-templates:Smart Templates: Open template context": false,
+      "smart-context:Smart Context: Open Builder": false,
+      "smart-context:Smart Context: Copy to Clipboard (select depth)": false,
+      "smart-context:Smart Context: List Named Contexts": false
     }
   },
-  "active": "aa50f213ba7a68df",
+  "active": "8a03d207cb4bd852",
   "lastOpenFiles": [
+    "01_NODES/styles",
     "03_SYSTEM/dashboard.md",
     "episode_export.md.md",
     "03_SYSTEM/prompt_engine.md",
@@ -265,7 +270,6 @@
     "03_SYSTEM",
     "01_NODES/styles",
     "01_NODES/failures",
-    "PRMPT_XXX_V2.md",
     "Untitled.canvas"
   ]
 }
