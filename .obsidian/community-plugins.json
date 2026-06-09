@@ -10,5 +10,6 @@
   "smart-chatgpt",
   "smart-templates",
   "templater-obsidian",
-  "obsidian-textgenerator-plugin"
+  "obsidian-textgenerator-plugin",
+  "dataview"
 ]

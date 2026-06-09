@@ -219,8 +219,12 @@
   },
   "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
-    "03_SYSTEM/style_memory.md",
+    "02_ASSETS/images/Untitled.md",
+    "02_ASSETS/images/scenes",
+    "02_ASSETS/images/characters",
+    "02_ASSETS/images/characters.md",
     "03_SYSTEM/prompt_compiler.md",
+    "03_SYSTEM/style_memory.md",
     "03_SYSTEM/master_os.md",
     "01_NODES/styles/style_001.md",
     "TEMPLATES/style_template.md",
@@ -234,8 +238,6 @@
     "TEMPLATES/generation_template.md",
     "02_ASSETS/videos",
     "01_NODES/generations",
-    "03_SYSTEM/prompt_compiler.md",
-    "02_ASSETS/images/characters.md",
     "DASHBOARD",
     "TEMPLATES",
     "03_SYSTEM",
@@ -251,10 +253,7 @@
     "03_SYSTEM/graph_index.md",
     "03_SYSTEM/asset_registry.md",
     "TEMPLATES/Failure_Template.md",
-    "02_ASSETS/images",
-    "01_NODES/scenes",
     "01_NODES/CHAR_001.md",
-    "03_SYSTEM/style_update_queue.md",
     "Untitled.canvas"
   ]
 }
