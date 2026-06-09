@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_SYSTEM/templates/scene_template.md",
+                "file": "03_SYSTEM/DASHBOARD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "scene_template"
+              "title": "DASHBOARD"
             }
           }
         ],
@@ -231,8 +231,9 @@
   },
   "active": "aa50f213ba7a68df",
   "lastOpenFiles": [
-    "03_SYSTEM/templates/style_template.md",
+    "01_NODES/scenes/SCENE_001.md",
     "03_SYSTEM/templates/scene_template.md",
+    "03_SYSTEM/templates/style_template.md",
     "03_SYSTEM/templates/character_template.md",
     "02_ASSETS/exports.md",
     "02_ASSETS/characters/character_template.md",
@@ -248,7 +249,6 @@
     "02_ASSETS/images/SCENE_001.png",
     "01_NODES/characters/CHAR_001_REN.md",
     "01_NODES/failures/failure_001.md",
-    "01_NODES/scenes/SCENE_001.md",
     "TEMPLATES/STYLE_TEMPLATE.md",
     "TEMPLATES/SCENE_TEMPLATE.md",
     "TEMPLATES/CHARACTER_TEMPLATE.md",
