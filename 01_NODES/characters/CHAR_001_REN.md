@@ -1,17 +1,29 @@
 ---
 type: character
 id: CHAR_001_REN
-sequence: 1
-stability: "100%"
-continuity_score: "100%"
-storyboard_status: Generated
-preview_image: "[[SCENE_001.png]]"
+name: Ren
+
+tier: 1
+status: Core
+
+stability: 1.0
+success: 1
+failures: 0
 ---
 
-# CHAR_001: Ren
+## 👤 Character Profile: Ren
 
-## Visual Anchor Definitions
-* **Hair:** Messy silver undercut hair, wet/slick texture.
-* **Eyes:** Solid glowing crimson eyes (0% visible pupils).
-* **Attire:** Matte dark slate-grey high-collar tactical trench coat.
-* **Primary Asset:** Standard tactical combat knife.
+### 🧬 Core Visual Descriptors
+* Identity Anchors:
+solo focus character,
+messy silver undercut hair,
+solid crimson eyes
+
+* Wardrobe:
+dark slate-grey tactical trench coat
+
+### 🛠️ Equipment
+* Tactical combat knife
+
+### 🔗 Linked Scenes
+* [[SCENE_001]]

@@ -1,2 +1,20 @@
-```dataviewjs
-dv.header(2, "🌐 WORLD STATE"); const scenes = dv.pages('"01_NODES/scenes"').where(s => s.type === "scene"); let stable = 0, unstable = 0; scenes.forEach(s => { (s.continuity_score ?? 0.5) >= 0.5 ? stable++ : unstable++; }); dv.paragraph(`**Stable:** ${stable} | **Unstable:** ${unstable} | **Total:** ${scenes.length}`);
+---
+type: system
+id: WORLD_STATE
+---
+
+# 🌐 WORLD LOGIC
+
+## Genesis Pulse
+
+Electronics fail.
+
+Mechanical tools dominate.
+
+## Evolution
+
+Tier 1 → Human
+
+Tier 2 → Chitin growth
+
+Tier 4 → Neural roots
