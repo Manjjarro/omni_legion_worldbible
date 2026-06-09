@@ -25,11 +25,13 @@
             "id": "aa50f213ba7a68df",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "02_ASSETS/images/SCENE_001.png"
+                "file": "01_NODES/scenes/SCENE_001.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
+              "icon": "lucide-file",
               "title": "SCENE_001"
             }
           }
@@ -220,14 +222,18 @@
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-lookup:Smart Lookup: Open lookup view": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "smart-context:Smart Context: Open Builder": false,
+      "smart-context:Smart Context: Copy to Clipboard (select depth)": false,
+      "smart-context:Smart Context: List Named Contexts": false,
+      "smart-templates:Smart Templates: Open template context": false
     }
   },
   "active": "aa50f213ba7a68df",
   "lastOpenFiles": [
     "01_NODES/failures/failure_001.md",
-    "01_NODES/scenes/SCENE_001.md",
     "02_ASSETS/images/SCENE_001.png",
+    "01_NODES/scenes/SCENE_001.md",
     "03_SYSTEM/EPISODIC_ARCHITECT.md",
     "03_SYSTEM/STORYBOARD_GEN.md",
     "03_SYSTEM/WORLD_STATE.md",
@@ -255,7 +261,6 @@
     "01_NODES/episodes/episodes.md",
     "01_NODES/episodes",
     "01_NODES/Untitled.md",
-    "03_SYSTEM/master_os.md",
     "02_ASSETS/images/scenes",
     "02_ASSETS/images/characters",
     "02_ASSETS/videos",

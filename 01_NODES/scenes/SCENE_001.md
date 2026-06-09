@@ -12,7 +12,14 @@ motion_intensity: Low
 storyboard_status: generated
 stability_score: 50
 ---
-
+---
+---
+title: "Day 3: Character Turnaround Sheets"
+status: Generated
+characters: [["CHAR_001_REN"]]
+stability_score: 100%
+visual_anchor: [[SCENE_001.png]]
+---
 # Scene Description
 A desolate, storm-drenched urban alleyway in Sector 7 immediately following the Genesis Pulse. All electronics are dead; there are no ambient streetlights or active digital screens. Heavy, dense atmospheric blue smoke and sheets of rain fill the narrow corridor. 
 
