@@ -1,2 +1,0 @@
-```dataviewjs
-dv.header(2, "🌍 SEASON OS — CHARACTER MEMORY"); const chars = dv.pages('"01_NODES/characters"').where(c => c.type === "character"); if (!chars.length) { dv.paragraph("No characters found."); return; } for (let c of chars) { const score = (c.success ?? 0) - (c.failures ?? 0) + (c.stability ?? 0.5); let role = score > 2 ? "PRIMARY" : score > 1 ? "CORE" : score > 0 ? "SECONDARY" : "DEPRECATED"; dv.paragraph(`**${c.file.link}** → Score: ${score.toFixed(2)} | Role: ${role} | Success: ${c.success ?? 0} | Fail: ${c.failures ?? 0}`); }

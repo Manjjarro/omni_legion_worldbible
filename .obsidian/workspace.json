@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_SYSTEM/PROMPT_ENGINE.md",
-                "mode": "preview",
+                "file": "03_SYSTEM/templates/scene_template.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PROMPT_ENGINE"
+              "title": "scene_template"
             }
           }
         ],
@@ -222,11 +222,27 @@
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-lookup:Smart Lookup: Open lookup view": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "smart-templates:Smart Templates: Open template context": false,
+      "smart-context:Smart Context: Open Builder": false,
+      "smart-context:Smart Context: Copy to Clipboard (select depth)": false,
+      "smart-context:Smart Context: List Named Contexts": false
     }
   },
   "active": "aa50f213ba7a68df",
   "lastOpenFiles": [
+    "03_SYSTEM/templates/style_template.md",
+    "03_SYSTEM/templates/scene_template.md",
+    "03_SYSTEM/templates/character_template.md",
+    "02_ASSETS/exports.md",
+    "02_ASSETS/characters/character_template.md",
+    "03_SYSTEM/templates",
+    "02_ASSETS/audio.md",
+    "02_ASSETS/vfx.md",
+    "02_ASSETS/props.md",
+    "03_SYSTEM/PROMPT_ENGINE.md",
+    "02_ASSETS/enviroments",
+    "02_ASSETS/characters",
     "03_SYSTEM/EPISODIC_ARCHITECT.md",
     "03_SYSTEM/DASHBOARD.md",
     "02_ASSETS/images/SCENE_001.png",
@@ -242,27 +258,16 @@
     "03_SYSTEM/SEASON_EXPORT.md",
     "03_SYSTEM/SEASON_DIRECTOR.md",
     "03_SYSTEM/SEASON_OS.md",
-    "03_SYSTEM/PROMPT_ENGINE.md",
     "Untitled",
     "03_SYSTEM/season_export",
     "episode_export.md.md",
     "01_NODES/styles",
     "03_SYSTEM/prompt_compiler.md",
     "01_NODES/scenes/scene_001.md",
-    "01_NODES/characters/char_001.md",
-    "03_SYSTEM/script_to_scene.md",
-    "03_SYSTEM/style_memory.md",
-    "03_SYSTEM/scene_sequencer.md",
-    "03_SYSTEM/continuity engine.md",
-    "TEMPLATES/failure template.md",
-    "01_NODES/episodes/episodes.md",
     "01_NODES/episodes",
     "02_ASSETS/images/scenes",
     "02_ASSETS/images/characters",
     "02_ASSETS/videos",
-    "01_NODES/generations",
-    "DASHBOARD",
-    "TEMPLATES",
     "Untitled.canvas"
   ]
 }
