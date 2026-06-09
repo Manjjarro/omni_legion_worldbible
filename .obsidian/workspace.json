@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TEMPLATES/Untitled.md",
+                "file": "TEMPLATES/character_template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "character_template"
             }
           }
         ]
@@ -219,8 +219,9 @@
   },
   "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
+    "01_NODES/styles/style_001.md",
+    "TEMPLATES/generation_template.md",
     "TEMPLATES/failure template.md",
-    "TEMPLATES/Untitled.md",
     "03_SYSTEM/style_memory.md",
     "TEMPLATES/scene_template.md",
     "TEMPLATES/character_template.md",
@@ -254,7 +255,6 @@
     "03_SYSTEM/style_update_queue.md",
     "TEMPLATES/Character_Template.md",
     "99_AI_MEMORY/active_context.md",
-    "01_CHARACTERS/index.md.md",
     "Untitled.canvas"
   ]
 }
