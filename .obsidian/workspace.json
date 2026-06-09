@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "failure_dashboard.md",
+                "file": "03_SYSTEM/master_os.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "failure_dashboard"
+              "title": "master_os"
             }
           }
         ],
@@ -234,19 +234,19 @@
   },
   "active": "0ef476d4fca54d38",
   "lastOpenFiles": [
+    "03_SYSTEM/prompt_compiler.md",
+    "01_NODES/characters/char_001.md",
+    "01_NODES/scenes/scene_001.md",
+    "01_NODES/styles/style_001.md",
     "DASHBOARD.md",
     "failure_dashboard.md",
-    "03_SYSTEM/prompt_compiler.md",
     "02_ASSETS/images/Untitled.md",
     "02_ASSETS/images/scenes",
     "02_ASSETS/images/characters",
     "02_ASSETS/images/characters.md",
     "03_SYSTEM/style_memory.md",
     "03_SYSTEM/master_os.md",
-    "01_NODES/styles/style_001.md",
     "TEMPLATES/style_template.md",
-    "01_NODES/characters/char_001.md",
-    "01_NODES/scenes/scene_001.md",
     "TEMPLATES/failure template.md",
     "TEMPLATES/scene_template.md",
     "TEMPLATES/character_template.md",
