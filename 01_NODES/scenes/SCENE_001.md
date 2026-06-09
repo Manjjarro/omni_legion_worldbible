@@ -1,13 +1,15 @@
 ---
 id: SCENE_001
 episode: 1
-title: "The Zero-Point Mandate"
+title: The Zero-Point Mandate
 shot_number: 1
-character_focus: [[CHAR_001]]
-style_anchor: [[STYLE_001]]
+character_focus:
+  - - CHAR_001
+style_anchor:
+  - - STYLE_001
 layer_depth: Multi-Plane
 motion_intensity: Low
-storyboard_status: Planned
+storyboard_status: generated
 stability_score: 50
 ---
 
