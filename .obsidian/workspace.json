@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TEMPLATES/character_template.md",
-                "mode": "source",
+                "file": "03_SYSTEM/WORLD_STATE.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "character_template"
+              "title": "WORLD_STATE"
             }
           }
         ],
@@ -222,22 +222,18 @@
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-lookup:Smart Lookup: Open lookup view": false,
-      "templater-obsidian:Templater": false,
-      "smart-templates:Smart Templates: Open template context": false,
-      "smart-context:Smart Context: Open Builder": false,
-      "smart-context:Smart Context: Copy to Clipboard (select depth)": false,
-      "smart-context:Smart Context: List Named Contexts": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "aa50f213ba7a68df",
   "lastOpenFiles": [
-    "03_SYSTEM/WORLD_STATE.md",
-    "03_SYSTEM/DASHBOARD.md",
     "03_SYSTEM/PROMPT_ENGINE.md",
+    "03_SYSTEM/DASHBOARD.md",
+    "03_SYSTEM/WORLD_STATE.md",
+    "TEMPLATES/character_template.md",
     "01_NODES/scenes/SCENE_001.md",
     "01_NODES/characters/CHAR_001_REN.md",
     "TEMPLATES/scene_template.md",
-    "TEMPLATES/character_template.md",
     "TEMPLATES",
     "03_SYSTEM/SEASON_EXPORT.md",
     "03_SYSTEM/templates/scene_template.md",
