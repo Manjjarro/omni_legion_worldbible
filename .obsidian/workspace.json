@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TEMPLATES/prompt_compiler_v2.md",
+                "file": "03_SYSTEM/prompt_compiler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "prompt_compiler_v2"
+              "title": "prompt_compiler"
             }
           }
         ]
@@ -219,15 +219,26 @@
   },
   "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
-    "TEMPLATES/prompt_template.md",
+    "03_SYSTEM/core_rules.md",
+    "03_SYSTEM/prompt_compiler.md",
+    "DASHBOARD.md",
+    "02_ASSETS/images/characters.md",
+    "DASHBOARD",
+    "TEMPLATES",
+    "03_SYSTEM",
+    "01_NODES/styles",
+    "01_NODES/Untitled.md",
+    "01_NODES/failures",
+    "01_NODES/prompts",
+    "PRMPT_XXX_V2.md",
+    "03_SYSTEM/Style_memory.md",
     "TEMPLATES/prompt_compiler_v2.md",
+    "01_NODES/prompts.md",
+    "TEMPLATES/prompt_template.md",
     "03_SYSTEM/prioritization_rules.md",
     "03_SYSTEM/graph_index.md",
     "03_SYSTEM/asset_registry.md",
-    "PRMPT_XXX_V2.md",
-    "03_SYSTEM/Style_memory.md",
     "TEMPLATES/Failure_Template.md",
-    "02_ASSETS/images/characters.md",
     "02_ASSETS/images",
     "01_NODES/scenes",
     "01_NODES/characters",
@@ -235,13 +246,8 @@
     "03_SYSTEM/style_update_queue.md",
     "TEMPLATES/Character_Template.md",
     "TEMPLATES",
-    "03_SYSTEM",
-    "02_ASSETS",
-    "01_NODES",
-    "00_CANON",
     "99_AI_MEMORY/active_context.md",
     "01_CHARACTERS/index.md.md",
-    "99_AI_MEMORY",
     "00_CANON/canon_decision_log.md",
     "04_SCENES/scene_outcomes.md",
     "05_PROMPTS/prompt_evolution_history.md",
@@ -249,12 +255,6 @@
     "07_EVAL/style_drift_log.md",
     "06_ASSETS/asset_promotion_system.md",
     "01_CHARACTERS/Ren/character_distilllation.md",
-    "01_CHARACTERS/Ren/references",
-    "01_CHARACTERS/Ren/Untitled.md",
-    "01_CHARACTERS/Ren/approved_refrences.md",
-    "01_CHARACTERS/Ren/state.md",
-    "01_CHARACTERS/Ren/ren.md",
-    "07_EVAL/style_distillation/style_update_queue.md",
     "Untitled.canvas"
   ]
 }
