@@ -1,27 +1,19 @@
 # STYLE MEMORY
 
-## GLOBAL STYLE ANCHOR (SOFT CONSTRAINT)
+## Global Style Anchor
 
-cinematic realism, controlled lighting, shallow depth of field, filmic composition
-
----
-
-## STYLE RULES
-
-- Style is preference, not command
-- Do NOT override character identity
-- Avoid stacking multiple styles
-- Keep visual language consistent per project
+cinematic realism, detailed subject, controlled lighting, clean composition
 
 ---
 
-## TOOL BEHAVIOR NOTES
+## Rules
 
-Runway:
-- prefers simple prompts
+- One primary style per scene
+- No style stacking
+- Character identity takes priority
 
-Pika:
-- handles motion better
+---
 
-Luma:
-- strongest temporal stability
+## Notes
+
+Update this file only when a style consistently succeeds.

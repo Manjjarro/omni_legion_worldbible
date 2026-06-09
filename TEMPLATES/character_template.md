@@ -5,23 +5,55 @@ stability: 0.7
 ---
 ---
 type: character
+
 id: CHAR_XXX
-weight: 0.5
+version: 1
+
+status: testing
+
 success_count: 0
 failure_count: 0
-confidence: medium
+
+identity_score: 0.5
+motion_score: 0.5
+lighting_score: 0.5
+
+confidence: low
 ---
 
-# IDENTITY ANCHOR
-"A clearly defined, non-ambiguous character description"
+# Identity Anchor
+
+Describe the character exactly.
+
+Example:
+
+Young male,
+silver hair,
+crimson eyes,
+dark tactical coat,
+cinematic realism.
 
 ---
 
-## CONSTRAINTS
-- motion tolerance: low / medium / high
-- drift sensitivity: high / medium / low
+# Constraints
 
-## SUCCESS HISTORY
-| Scene | Result |
-| :--- | :--- |
-| | |
+Motion Tolerance:
+
+Low / Medium / High
+
+Known Issues:
+
+-
+
+---
+
+# Version History
+
+v1
+Initial version
+
+---
+
+# Notes
+
+-
