@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TEMPLATES/prompt_compiler.md",
+                "file": "03_SYSTEM/style_memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "prompt_compiler"
+              "title": "style_memory"
             }
           }
         ]
@@ -219,15 +219,17 @@
   },
   "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
-    "TEMPLATES/style_node.md",
+    "03_SYSTEM/core_rules.md",
+    "02_ASSETS/videos",
+    "01_NODES/generations",
     "TEMPLATES/prompt_compiler.md",
+    "TEMPLATES/style_node.md",
     "TEMPLATES/character_template.md",
     "TEMPLATES/scene_template.md",
     "TEMPLATES/failure template.md",
     "03_SYSTEM/style_memory.md",
     "DASHBOARD.md",
     "03_SYSTEM/prompt_compiler.md",
-    "03_SYSTEM/core_rules.md",
     "02_ASSETS/images/characters.md",
     "DASHBOARD",
     "TEMPLATES",
@@ -247,14 +249,11 @@
     "TEMPLATES/Failure_Template.md",
     "02_ASSETS/images",
     "01_NODES/scenes",
-    "01_NODES/characters",
     "01_NODES/CHAR_001.md",
     "03_SYSTEM/style_update_queue.md",
     "TEMPLATES/Character_Template.md",
-    "TEMPLATES",
     "99_AI_MEMORY/active_context.md",
     "01_CHARACTERS/index.md.md",
-    "00_CANON/canon_decision_log.md",
     "Untitled.canvas"
   ]
 }

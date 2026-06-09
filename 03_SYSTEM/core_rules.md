@@ -1,38 +1,53 @@
-# OMNI-LEGION OS — CORE RULES
+# OMNI-LEGION OS
 
-## SYSTEM TYPE
-Probabilistic production memory system for AI video generation.
+Version: 1.0
 
----
+Purpose:
 
-## CORE LOOP
-
-1. Create or update node (Character / Scene / Style)
-2. Link dependencies
-3. Compile prompt
-4. Generate externally
-5. Log output
-6. Record failure (if any)
-7. Update ONLY ONE node per iteration
+Transform AI generation from random experimentation into structured iteration.
 
 ---
 
-## NODE PRIORITY
+CORE LOOP
 
-- Stable nodes are preferred
-- New nodes are low confidence
-- Failed nodes reduce future usage probability
-
----
-
-## FAILURE TYPES (ONLY 3)
-
-1. Identity Failure → character drift
-2. Temporal Failure → flicker / instability
-3. Semantic Failure → prompt misinterpretation
+1. Create Character
+2. Create Scene
+3. Create Style
+4. Compile Prompt
+5. Generate
+6. Log Result
+7. Update Scores
+8. Repeat
 
 ---
 
-## GOLDEN RULE
+GOLDEN RULES
 
-Simplicity increases stability.
+- One variable change per iteration.
+- Simpler prompts beat complex prompts.
+- Identity matters more than style.
+- Every failure must teach something.
+
+---
+
+FAILURE TYPES
+
+Identity
+Temporal
+Semantic
+
+---
+
+CONFIDENCE LEVELS
+
+Low
+Medium
+High
+
+---
+
+STATUS LEVELS
+
+Testing
+Stable
+Deprecated
