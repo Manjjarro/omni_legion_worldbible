@@ -8,5 +8,7 @@
   "smart-lookup",
   "smart-context",
   "smart-chatgpt",
-  "smart-templates"
+  "smart-templates",
+  "templater-obsidian",
+  "obsidian-textgenerator-plugin"
 ]
