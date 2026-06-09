@@ -14,21 +14,22 @@ style_score: 0.5
 
 confidence: low
 ---
+# STYLE MEMORY
 
-# Style Block
+## Global Style Anchor
 
-cinematic realism
-
----
-
-# Negative Style
-
-distorted
-overexposed
-low detail
+cinematic realism, detailed subject, controlled lighting, clean composition
 
 ---
 
-# Notes
+## Rules
 
--
+- One primary style per scene
+- No style stacking
+- Character identity takes priority
+
+---
+
+## Notes
+
+Update this file only when a style consistently succeeds.

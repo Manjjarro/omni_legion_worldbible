@@ -6,8 +6,7 @@ stability: 0.7
 ---
 type: character
 
-id: CHAR_001
-
+id: CHAR_XXX
 version: 1
 
 status: testing
@@ -24,17 +23,15 @@ confidence: low
 
 # Identity Anchor
 
-Ren
+Describe the character exactly.
 
-Young male
+Example:
 
-silver undercut hair
-
-crimson eyes
-
-dark tactical coat
-
-cinematic realism
+Young male,
+silver hair,
+crimson eyes,
+dark tactical coat,
+cinematic realism.
 
 ---
 
@@ -42,16 +39,21 @@ cinematic realism
 
 Motion Tolerance:
 
-Medium
+Low / Medium / High
 
 Known Issues:
 
-None
+-
 
 ---
 
 # Version History
 
 v1
-
 Initial version
+
+---
+
+# Notes
+
+-

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TEMPLATES/character_template.md",
+                "file": "TEMPLATES/scene_template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "character_template"
+              "title": "scene_template"
             }
           }
         ]
@@ -219,14 +219,14 @@
   },
   "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
+    "TEMPLATES/character_template.md",
+    "03_SYSTEM/style_memory.md",
+    "03_SYSTEM/master_os.md",
     "01_NODES/styles/style_001.md",
     "TEMPLATES/generation_template.md",
     "TEMPLATES/failure template.md",
-    "03_SYSTEM/style_memory.md",
     "TEMPLATES/scene_template.md",
-    "TEMPLATES/character_template.md",
     "TEMPLATES/prompt_compiler.md",
-    "03_SYSTEM/core_rules.md",
     "02_ASSETS/videos",
     "01_NODES/generations",
     "TEMPLATES/style_node.md",
