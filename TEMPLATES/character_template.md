@@ -5,55 +5,25 @@ stability: 0.7
 ---
 ---
 type: character
-
 id: CHAR_XXX
-version: 1
-
-status: testing
-
+name: ""
+identity_anchor: ""
+stability: 0.5
 success_count: 0
 failure_count: 0
-
-identity_score: 0.5
-motion_score: 0.5
-lighting_score: 0.5
-
-confidence: low
+version: 1
+motion_tolerance: low
 ---
 
-# Identity Anchor
+# CHARACTER
 
-Describe the character exactly.
+## Identity Anchor
+(absolute invariant visual description)
 
-Example:
+## Constraints
+- motion tolerance: low
+- allowed angles: front / profile / back
 
-Young male,
-silver hair,
-crimson eyes,
-dark tactical coat,
-cinematic realism.
-
----
-
-# Constraints
-
-Motion Tolerance:
-
-Low / Medium / High
-
-Known Issues:
-
--
-
----
-
-# Version History
-
-v1
-Initial version
-
----
-
-# Notes
-
--
+## Performance Log
+| Scene | Result |
+|------|--------|

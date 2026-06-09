@@ -4,42 +4,23 @@ id: FAIL_XXX
 ---
 ---
 type: failure
-
 id: FAIL_XXX
-
-date:
+linked_character: ""
+linked_scene: ""
+failure_class: identity
+count: 1
 ---
 
-# Failure Type
+# FAILURE LOG
 
-Identity
+## Problem
+-
 
-Temporal
+## Cause
+-
 
-Semantic
+## Fix
+-
 
----
-
-# Description
-
-What went wrong?
-
----
-
-# Cause
-
-What likely caused it?
-
----
-
-# Fix
-
-What will be changed?
-
----
-
-# Affected Nodes
-
-[[CHAR_XXX]]
-
-[[SCENE_XXX]]
+## Rule Generated
+-

@@ -4,35 +4,13 @@ id: STYLE_001
 ---
 ---
 type: style
-
 id: STYLE_XXX
-
 version: 1
-
-status: testing
-
-success_count: 0
-failure_count: 0
-
-style_score: 0.5
-
-confidence: low
+stability: 0.7
 ---
 
-# Style Block
+# STYLE BLOCK
+cinematic anime rendering, clean ink lines, flat shading, high contrast lighting
 
-cinematic realism
-
----
-
-# Negative Style
-
-distorted
-overexposed
-low detail
-
----
-
-# Notes
-
--
+## Negative Style
+blurry, 3D render, gradient mess, deformed anatomy, text, watermark
