@@ -269,11 +269,7 @@
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-lookup:Smart Lookup: Open lookup view": false,
-      "templater-obsidian:Templater": false,
-      "smart-context:Smart Context: Open Builder": false,
-      "smart-context:Smart Context: Copy to Clipboard (select depth)": false,
-      "smart-context:Smart Context: List Named Contexts": false,
-      "smart-templates:Smart Templates: Open template context": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "aa50f213ba7a68df",
