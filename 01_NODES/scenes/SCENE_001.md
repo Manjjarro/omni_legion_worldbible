@@ -9,7 +9,7 @@ continuity_score: "100%"
 storyboard_status: Generated
 preview_image: "[[SCENE_001.png]]"
 title: "Day 3: Character Turnaround Sheets"
-characters: "[[CHAR_001_REN]]"
+characters: "Ren"
 ---
 
 # SCENE_001: Day 3: Character Turnaround Sheets
@@ -21,7 +21,7 @@ Ren stands in the immediate foreground beneath a rusted iron awning, shielded fr
 
 ## Multi-Plane Composite Blueprint
 * **Track 4 (VFX Layer):** Shifting layers of semi-transparent atmospheric fog, falling vertical rain texture lines, sharp crimson eye emission glow trailing from the foreground silhouette.
-* **Track 3 (Foreground Character):** [[CHAR_001_REN]] framed from the torso up. Messy silver undercut hair slick with water, solid crimson eyes glowing intensely, wearing a matte dark slate-grey high-collar tactical trench coat. Hand is tightly gripping a standard tactical knife.
+* **Track 3 (Foreground Character):** Ren framed from the torso up. Messy silver undercut hair slick with water, solid crimson eyes glowing intensely, wearing a matte dark slate-grey high-collar tactical trench coat. Hand is tightly gripping a standard tactical knife.
 * **Track 2 (Midground Assets):** The edge of a rusted metal awning jutting from the left side of the frame; falling raindrops splashing off the iron surface.
 * **Track 1 (Background Plate):** Deep perspective view of a monochrome concrete alleyway. Decaying buildings taper into the background mist where dark, silhouetted shapes of Faction Enforcers stand under cold, flat rim lighting.
 
