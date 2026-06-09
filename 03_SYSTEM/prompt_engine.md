@@ -21,7 +21,7 @@ if (!cfg.target_scene) {
         dv.paragraph("❌ Scene not found.");
     } else {
         const style =
-            "sharp 2D anime, bold contours, cinematic lighting";
+            "sharp 2D cell-shaded anime style, bold hand-drawn ink contours, flat color blocks, high-contrast lighting, minimal gradients, cinematic keyframe finish";
 
         const chars = (scene.characters ?? [])
             .map(x => dv.page(x))
@@ -37,8 +37,8 @@ if (!cfg.target_scene) {
             .filter(Boolean)
             .join(", ");
 
-        dv.header(3, `Output → ${scene.file.name}`);
-        dv.code(output, "text");
+        dv.header(3, `📋 Output Prompt String Locked for: ${scene.file.name}`);
+        dv.el("pre", output);
     }
 }
 ```
