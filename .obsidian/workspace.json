@@ -225,11 +225,7 @@
       "smart-lookup:Smart Lookup: Open lookup view": false,
       "templater-obsidian:Templater": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "smart-context:Smart Context: Open Builder": false,
-      "smart-context:Smart Context: Copy to Clipboard (select depth)": false,
-      "smart-context:Smart Context: List Named Contexts": false,
-      "smart-templates:Smart Templates: Open template context": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
   "active": "aa50f213ba7a68df",
