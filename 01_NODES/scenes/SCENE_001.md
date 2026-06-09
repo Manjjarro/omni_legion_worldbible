@@ -1,24 +1,15 @@
 ---
+---
+---
+type: scene
 id: SCENE_001
-episode: 1
-title: The Zero-Point Mandate
-shot_number: 1
-character_focus:
-  - - CHAR_001
-style_anchor:
-  - - STYLE_001
-layer_depth: Multi-Plane
-motion_intensity: Low
-storyboard_status: generated
-stability_score: 50
----
----
----
+sequence: 1
+stability: 100%
+continuity_score: 100%
+storyboard_status: Generated
+preview_image: "[[SCENE_001.png]]"
 title: "Day 3: Character Turnaround Sheets"
-status: Generated
-characters: [["CHAR_001_REN"]]
-stability_score: 100%
-visual_anchor: [[SCENE_001.png]]
+characters: "CHAR_001_REN"
 ---
 # Scene Description
 A desolate, storm-drenched urban alleyway in Sector 7 immediately following the Genesis Pulse. All electronics are dead; there are no ambient streetlights or active digital screens. Heavy, dense atmospheric blue smoke and sheets of rain fill the narrow corridor. 
