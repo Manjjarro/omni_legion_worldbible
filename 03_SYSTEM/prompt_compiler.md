@@ -1,3 +1,4 @@
+```dataviewjs
 let scene = dv.page("01_NODES/scenes/SCENE_001");
 
 if (!scene) {
@@ -6,7 +7,6 @@ if (!scene) {
 }
 
 let chars = scene.depends_on ?? [];
-
 let char = null;
 let style = null;
 
@@ -28,3 +28,4 @@ NEGATIVE: ${style?.negative_style ?? ""}`;
 
 dv.header(2, "COMPILED PROMPT");
 dv.code(prompt);
+```
