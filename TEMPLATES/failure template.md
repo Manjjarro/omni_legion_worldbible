@@ -2,20 +2,44 @@
 type: failure
 id: FAIL_XXX
 ---
+---
+type: failure
 
-## FAILURE TYPE
-Identity / Temporal / Semantic
+id: FAIL_XXX
 
-## OBSERVED ISSUE
-Describe what broke
+date:
+---
 
-## CONDITIONS
-- motion level:
-- lighting:
-- camera:
+# Failure Type
 
-## FIX APPLIED
-What changed in next iteration
+Identity
 
-## AFFECTED NODES
-[[CHAR_XXX]] [[SCENE_XXX]]
+Temporal
+
+Semantic
+
+---
+
+# Description
+
+What went wrong?
+
+---
+
+# Cause
+
+What likely caused it?
+
+---
+
+# Fix
+
+What will be changed?
+
+---
+
+# Affected Nodes
+
+[[CHAR_XXX]]
+
+[[SCENE_XXX]]

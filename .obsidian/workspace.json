@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_SYSTEM/style_memory.md",
+                "file": "TEMPLATES/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "style_memory"
+              "title": "Untitled"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "a684ea392abe9b54",
@@ -219,15 +219,16 @@
   },
   "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
+    "TEMPLATES/failure template.md",
+    "TEMPLATES/Untitled.md",
+    "03_SYSTEM/style_memory.md",
     "TEMPLATES/scene_template.md",
     "TEMPLATES/character_template.md",
     "TEMPLATES/prompt_compiler.md",
-    "03_SYSTEM/style_memory.md",
     "03_SYSTEM/core_rules.md",
     "02_ASSETS/videos",
     "01_NODES/generations",
     "TEMPLATES/style_node.md",
-    "TEMPLATES/failure template.md",
     "DASHBOARD.md",
     "03_SYSTEM/prompt_compiler.md",
     "02_ASSETS/images/characters.md",

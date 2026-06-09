@@ -1,19 +1,34 @@
-# STYLE MEMORY
+---
+type: style
 
-## Global Style Anchor
+id: STYLE_XXX
 
-cinematic realism, detailed subject, controlled lighting, clean composition
+version: 1
+
+status: testing
+
+success_count: 0
+failure_count: 0
+
+style_score: 0.5
+
+confidence: low
+---
+
+# Style Block
+
+cinematic realism
 
 ---
 
-## Rules
+# Negative Style
 
-- One primary style per scene
-- No style stacking
-- Character identity takes priority
+distorted
+overexposed
+low detail
 
 ---
 
-## Notes
+# Notes
 
-Update this file only when a style consistently succeeds.
+-
