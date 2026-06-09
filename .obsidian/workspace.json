@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_SYSTEM/EPISODIC_ARCHITECT.md",
+                "file": "01_NODES/scenes/SCENE_001.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EPISODIC_ARCHITECT"
+              "title": "SCENE_001"
             }
           }
         ],
@@ -234,13 +234,14 @@
   },
   "active": "aa50f213ba7a68df",
   "lastOpenFiles": [
+    "03_SYSTEM/EPISODIC_ARCHITECT.md",
+    "01_NODES/scenes/SCENE_001.md",
     "03_SYSTEM/STORYBOARD_GEN.md",
     "03_SYSTEM/WORLD_STATE.md",
     "03_SYSTEM/SEASON_EXPORT.md",
     "03_SYSTEM/SEASON_DIRECTOR.md",
     "03_SYSTEM/SEASON_OS.md",
     "03_SYSTEM/DASHBOARD.md",
-    "03_SYSTEM/EPISODIC_ARCHITECT.md",
     "03_SYSTEM/PROMPT_ENGINE.md",
     "TEMPLATES/CAMERA_RIG_LIBRARY.md",
     "TEMPLATES/CHARACTER_TEMPLATE.md",
