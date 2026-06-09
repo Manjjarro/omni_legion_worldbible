@@ -5,24 +5,15 @@ stability: 0.7
 ---
 ---
 type: character
-id: CHAR_XXX
-name: ""
-identity_anchor: ""
+id: CHAR_001
+name: Ren
+identity_anchor: "young male, messy silver undercut hair, crimson eyes, sharp facial structure, dark tactical high-collar coat, black gloves, lean athletic build"
 stability: 0.5
+success: 0
+failures: 0
 motion_tolerance: low
-failure_count: 0
-success_count: 0
-version: 1
+hair: silver undercut
+eyes: crimson
+clothing: tactical high-collar coat
+body: lean athletic
 ---
-
-# CHARACTER
-
-## IDENTITY ANCHOR (LOCKED)
-This defines visual consistency. Never rewrite casually.
-
-## RULES
-- keep facial traits constant
-- avoid multiple outfit descriptions
-- limit to 1 primary silhouette
-
-## PERFORMANCE

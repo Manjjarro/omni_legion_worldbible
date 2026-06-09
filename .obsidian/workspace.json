@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "episode_export.md.md",
+                "file": "TEMPLATES/CAMERA_RIG_LIBRARY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "episode_export.md"
+              "title": "CAMERA_RIG_LIBRARY"
             }
           }
         ],
@@ -232,12 +232,25 @@
       "smart-context:Smart Context: List Named Contexts": false
     }
   },
-  "active": "8a03d207cb4bd852",
+  "active": "aa50f213ba7a68df",
   "lastOpenFiles": [
-    "01_NODES/styles",
-    "03_SYSTEM/dashboard.md",
+    "03_SYSTEM/STORYBOARD_GEN.md",
+    "TEMPLATES/CAMERA_RIG_LIBRARY.md",
+    "TEMPLATES/STYLE_TEMPLATE.md",
+    "TEMPLATES/SCENE_TEMPLATE.md",
+    "TEMPLATES/CAMERA_RIG_LIBRARY.md",
+    "TEMPLATES/CHARACTER_TEMPLATE.md",
+    "03_SYSTEM/EPISODIC_ARCHITECT.md",
+    "03_SYSTEM/SEASON_EXPORT.md",
+    "Untitled",
+    "03_SYSTEM/WORLD_STATE.md",
+    "03_SYSTEM/SEASON_OS.md",
+    "03_SYSTEM/SEASON_DIRECTOR.md",
+    "03_SYSTEM/PROMPT_ENGINE.md",
+    "03_SYSTEM/DASHBOARD.md",
+    "03_SYSTEM/season_export",
     "episode_export.md.md",
-    "03_SYSTEM/prompt_engine.md",
+    "01_NODES/styles",
     "03_SYSTEM/prompt_compiler.md",
     "01_NODES/scenes/scene_001.md",
     "01_NODES/characters/char_001.md",
@@ -246,30 +259,17 @@
     "03_SYSTEM/scene_sequencer.md",
     "03_SYSTEM/continuity engine.md",
     "TEMPLATES/failure template.md",
-    "TEMPLATES/character_template.md",
     "01_NODES/episodes/episodes.md",
     "01_NODES/episodes",
     "01_NODES/Untitled.md",
     "03_SYSTEM/master_os.md",
     "failure_dashboard.md",
-    "TEMPLATES/style_template.md",
-    "TEMPLATES/scene_template.md",
-    "01_NODES/characters/char_002.md",
-    "DASHBOARD.md",
-    "01_NODES/styles/style_001.md",
-    "02_ASSETS/images/Untitled.md",
     "02_ASSETS/images/scenes",
     "02_ASSETS/images/characters",
-    "02_ASSETS/images/characters.md",
-    "TEMPLATES/prompt_template.md",
-    "TEMPLATES/generation_template.md",
     "02_ASSETS/videos",
     "01_NODES/generations",
     "DASHBOARD",
     "TEMPLATES",
-    "03_SYSTEM",
-    "01_NODES/styles",
-    "01_NODES/failures",
     "Untitled.canvas"
   ]
 }

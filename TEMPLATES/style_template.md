@@ -5,17 +5,6 @@ id: STYLE_001
 ---
 type: style
 id: STYLE_001
-tokens_to_strip:
-  - highly detailed
-  - masterpiece
-  - ultra realistic
-  - 4k
-  - cinematic
+style_core: "cinematic 2D anime, bold ink lines, flat shading, high contrast lighting"
+negative_core: "3D render, photorealism, blur, watermark, text, distortion, bad anatomy, extra limbs"
 ---
-
-# STYLE CORE
-
-clean anime ink linework, flat shading, high contrast lighting
-
-## NEGATIVE
-3D, blur, distortion, text, watermark, anatomy errors

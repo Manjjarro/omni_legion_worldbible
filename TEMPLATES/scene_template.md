@@ -16,27 +16,17 @@ risk_level: low
 ---
 ---
 type: scene
-id: SCENE_XXX
-characters: []
-style: STYLE_001
+id: SCENE_001
 sequence: 1
 duration: 4
-camera: ""
-environment: ""
-objective: ""
-motion_level: static
+continuity_score: 0.5
+depends_on: []
+act: 1
+shot_type: "Low_Angle_Wide"
+motion_preset: "Push_In"
+objective: "Ren stands at the edge of the rooftop, surveying the city"
+scene_state: "Rooftop at night with distant neon glow and low fog"
+environment: "Urban dystopia, rain-slicked concrete, 2AM"
+storyboard_status: "Planned"
+preview_image: ""
 ---
-
-# SCENE
-
-## DESCRIPTION
--
-
-## CAMERA
--
-
-## ENVIRONMENT
--
-
-## MOTION RULE
-static-first composition (only background moves)
