@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TEMPLATES/style_node.md",
+                "file": "TEMPLATES/prompt_compiler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "style_node"
+              "title": "prompt_compiler"
             }
           }
         ]
@@ -219,13 +219,13 @@
   },
   "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
-    "TEMPLATES/scene_template.md",
     "TEMPLATES/style_node.md",
+    "TEMPLATES/prompt_compiler.md",
+    "TEMPLATES/character_template.md",
+    "TEMPLATES/scene_template.md",
     "TEMPLATES/failure template.md",
     "03_SYSTEM/style_memory.md",
-    "TEMPLATES/character_template.md",
     "DASHBOARD.md",
-    "TEMPLATES/prompt_compiler.md",
     "03_SYSTEM/prompt_compiler.md",
     "03_SYSTEM/core_rules.md",
     "02_ASSETS/images/characters.md",

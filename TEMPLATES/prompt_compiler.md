@@ -10,56 +10,54 @@ function links(text){
 
 const refs = links(content);
 
-let character = "";
-let style = "";
+let bestCharacter = null;
+let bestStyle = null;
 let failures = [];
 
+let charWeight = 0;
+let styleWeight = 0;
+
+// collect nodes
 for (let r of refs){
   let file = app.metadataCache.getFirstLinkpathDest(r,"");
   if(!file) continue;
 
   let c = await app.vault.read(file);
 
+  // CHARACTER EXTRACTION
   if(c.includes("type: character")){
-    character = c.match(/Identity Anchor([\s\S]*?)(?=\n##|$)/)?.[1] || "";
+    const w = parseFloat(c.match(/weight:\s*([0-9.]+)/)?.[1] || 0.5);
+    if(w > charWeight){
+      charWeight = w;
+      bestCharacter = c.match(/Identity Anchor([\s\S]*?)(?=\n##|$)/)?.[1] || "";
+    }
   }
 
+  // STYLE EXTRACTION
   if(c.includes("type: style")){
-    style = c.match(/Style Block([\s\S]*?)(?=\n##|$)/)?.[1] || "";
+    const w = parseFloat(c.match(/weight:\s*([0-9.]+)/)?.[1] || 0.5);
+    if(w > styleWeight){
+      styleWeight = w;
+      bestStyle = c.match(/Style Block([\s\S]*?)(?=\n##|$)/)?.[1] || "";
+    }
   }
 
+  // FAILURES
   if(c.includes("type: failure")){
     failures.push("instability");
   }
 }
 
-// scene extraction
+// scene body extraction
 const sceneText = content.replace(/---[\s\S]*?---/,"").trim();
 
-// failure injection
-const failureText = failures.length
-? "Avoid known instability patterns: " + failures.join(", ")
-: "No prior failure constraints";
+// failure logic injection
+let failureBlock = failures.length
+? "AVOID PATTERNS: identity drift, temporal instability, semantic mismatch"
+: "No known failure constraints";
 
-// FINAL PROMPT
-const prompt = `
-CHARACTER:
-${character.trim()}
+// WEIGHTED PROMPT OUTPUT
+const prompt = `CHARACTER (weight ${charWeight.toFixed(2)}): ${bestCharacter.trim() || "UNKNOWN"} SCENE: ${sceneText} STYLE (weight ${styleWeight.toFixed(2)}): ${bestStyle.trim() || "default cinematic style"} CAMERA: slow stable motion, controlled framing NEGATIVE: drift, flicker, distortion, identity shift ${failureBlock}`.replace(/\s+/g," ").trim();
 
-SCENE:
-${sceneText}
-
-STYLE:
-${style.trim()}
-
-CAMERA:
-slow stable framing, minimal motion
-
-NEGATIVE:
-drift, flicker, distortion, identity shift
-
-${failureText}
-`.replace(/\s+/g," ").trim();
-
-tR += "# COMPILED PROMPT\n\n" + prompt;
+tR += "# WEIGHTED COMPILED PROMPT\n\n" + prompt;
 %>
