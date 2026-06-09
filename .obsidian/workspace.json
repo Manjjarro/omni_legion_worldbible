@@ -25,14 +25,12 @@
             "id": "aa50f213ba7a68df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "01_NODES/failures/failure_001.md",
-                "mode": "source",
-                "source": false
+                "file": "02_ASSETS/images/SCENE_001.png"
               },
-              "icon": "lucide-file",
-              "title": "failure_001"
+              "icon": "lucide-image",
+              "title": "SCENE_001"
             }
           }
         ],
@@ -215,7 +213,6 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "audio-recorder:Start/stop recording": false,
-      "realclaudian:Open Claudian": false,
       "github-sync:Sync with Remote": false,
       "copilot:Open Copilot Chat": false,
       "obsidian-git:Open Git source control": false,
@@ -223,19 +220,13 @@
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-lookup:Smart Lookup: Open lookup view": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "smart-templates:Smart Templates: Open template context": false,
-      "smart-context:Smart Context: Open Builder": false,
-      "smart-context:Smart Context: Copy to Clipboard (select depth)": false,
-      "smart-context:Smart Context: List Named Contexts": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "aa50f213ba7a68df",
   "lastOpenFiles": [
-    "01_NODES/scenes/SCENE_001.md",
     "01_NODES/failures/failure_001.md",
+    "01_NODES/scenes/SCENE_001.md",
     "02_ASSETS/images/SCENE_001.png",
     "03_SYSTEM/EPISODIC_ARCHITECT.md",
     "03_SYSTEM/STORYBOARD_GEN.md",
