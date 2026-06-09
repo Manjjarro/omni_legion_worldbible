@@ -1,23 +1,11 @@
 ---
 type: style
-
 id: STYLE_001
-
-version: 1
-
-status: testing
-
-success_count: 0
-failure_count: 0
-
-style_score: 0.5
-
-confidence: low
 ---
 ---
 type: style
 
-id: STYLE_001
+id: STYLE_XXX
 
 version: 1
 
@@ -35,20 +23,16 @@ confidence: low
 
 cinematic realism
 
-controlled lighting
-
-clean composition
-
-detailed subject
-
 ---
 
 # Negative Style
 
 distorted
-
-blurry
-
-oversaturated
-
+overexposed
 low detail
+
+---
+
+# Notes
+
+-

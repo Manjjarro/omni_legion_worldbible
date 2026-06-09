@@ -7,6 +7,15 @@ date:
 
 result: success
 ---
+---
+type: generation
+
+id: GEN_XXX
+
+date:
+
+result: success
+---
 
 # Scene
 
