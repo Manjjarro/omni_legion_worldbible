@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_ASSETS/images/characters.md",
+                "file": "TEMPLATES/prompt_compiler_v2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "characters"
+              "title": "prompt_compiler_v2"
             }
           }
         ]
@@ -210,21 +210,29 @@
       "smart-lookup:Smart Lookup: Open lookup view": false,
       "templater-obsidian:Templater": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "smart-context:Smart Context: Open Builder": false,
+      "smart-context:Smart Context: Copy to Clipboard (select depth)": false,
+      "smart-context:Smart Context: List Named Contexts": false,
+      "smart-templates:Smart Templates: Open template context": false
     }
   },
   "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
     "TEMPLATES/prompt_template.md",
+    "TEMPLATES/prompt_compiler_v2.md",
+    "03_SYSTEM/prioritization_rules.md",
+    "03_SYSTEM/graph_index.md",
+    "03_SYSTEM/asset_registry.md",
+    "PRMPT_XXX_V2.md",
+    "03_SYSTEM/Style_memory.md",
+    "TEMPLATES/Failure_Template.md",
     "02_ASSETS/images/characters.md",
     "02_ASSETS/images",
     "01_NODES/scenes",
     "01_NODES/characters",
-    "03_SYSTEM/Style_memory.md",
     "01_NODES/CHAR_001.md",
     "03_SYSTEM/style_update_queue.md",
-    "TEMPLATES/Failure_Template.md",
-    "PRMPT_XXX_V2.md",
     "TEMPLATES/Character_Template.md",
     "TEMPLATES",
     "03_SYSTEM",
@@ -247,10 +255,6 @@
     "01_CHARACTERS/Ren/state.md",
     "01_CHARACTERS/Ren/ren.md",
     "07_EVAL/style_distillation/style_update_queue.md",
-    "07_EVAL/style_memory.md",
-    "07_EVAL/style_distillation/SD_002.md",
-    "07_EVAL/style_distillation/SD_001.md",
-    "08_AI_INTERFACE/script_continuation_pack.md",
     "Untitled.canvas"
   ]
 }
