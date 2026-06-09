@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_NODES/episodes/episodes.md",
+                "file": "03_SYSTEM/prompt_compiler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "episodes"
+              "title": "prompt_compiler"
             }
           }
         ],
@@ -234,18 +234,20 @@
   },
   "active": "0ef476d4fca54d38",
   "lastOpenFiles": [
+    "03_SYSTEM/script_to_scene.md",
     "03_SYSTEM/style_memory.md",
+    "03_SYSTEM/scene_sequencer.md",
+    "03_SYSTEM/continuity engine.md",
+    "03_SYSTEM/prompt_compiler.md",
+    "TEMPLATES/failure template.md",
+    "TEMPLATES/character_template.md",
     "01_NODES/episodes/episodes.md",
     "01_NODES/episodes",
     "01_NODES/Untitled.md",
     "03_SYSTEM/master_os.md",
-    "03_SYSTEM/prompt_compiler.md",
-    "03_SYSTEM/scene_sequencer.md",
     "failure_dashboard.md",
-    "TEMPLATES/failure template.md",
     "TEMPLATES/style_template.md",
     "TEMPLATES/scene_template.md",
-    "TEMPLATES/character_template.md",
     "01_NODES/scenes/scene_001.md",
     "01_NODES/characters/char_002.md",
     "DASHBOARD.md",
@@ -268,8 +270,6 @@
     "03_SYSTEM/Style_memory.md",
     "TEMPLATES/prompt_compiler_v2.md",
     "01_NODES/prompts.md",
-    "03_SYSTEM/prioritization_rules.md",
-    "03_SYSTEM/graph_index.md",
     "Untitled.canvas"
   ]
 }
