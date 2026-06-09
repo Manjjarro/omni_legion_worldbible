@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TEMPLATES/CAMERA_RIG_LIBRARY.md",
+                "file": "03_SYSTEM/PROMPT_ENGINE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CAMERA_RIG_LIBRARY"
+              "title": "PROMPT_ENGINE"
             }
           }
         ],
@@ -234,11 +234,10 @@
   },
   "active": "aa50f213ba7a68df",
   "lastOpenFiles": [
-    "03_SYSTEM/STORYBOARD_GEN.md",
     "TEMPLATES/CAMERA_RIG_LIBRARY.md",
+    "03_SYSTEM/STORYBOARD_GEN.md",
     "TEMPLATES/STYLE_TEMPLATE.md",
     "TEMPLATES/SCENE_TEMPLATE.md",
-    "TEMPLATES/CAMERA_RIG_LIBRARY.md",
     "TEMPLATES/CHARACTER_TEMPLATE.md",
     "03_SYSTEM/EPISODIC_ARCHITECT.md",
     "03_SYSTEM/SEASON_EXPORT.md",
