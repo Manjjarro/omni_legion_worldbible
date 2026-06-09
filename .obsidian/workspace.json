@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_NODES/scenes/scene_001.md",
+                "file": "01_NODES/episodes/episodes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "scene_001"
+              "title": "episodes"
             }
           }
         ],
@@ -234,23 +234,27 @@
   },
   "active": "0ef476d4fca54d38",
   "lastOpenFiles": [
-    "01_NODES/characters/char_002.md",
+    "03_SYSTEM/style_memory.md",
+    "01_NODES/episodes/episodes.md",
+    "01_NODES/episodes",
+    "01_NODES/Untitled.md",
+    "03_SYSTEM/master_os.md",
+    "03_SYSTEM/prompt_compiler.md",
+    "03_SYSTEM/scene_sequencer.md",
+    "failure_dashboard.md",
+    "TEMPLATES/failure template.md",
     "TEMPLATES/style_template.md",
     "TEMPLATES/scene_template.md",
-    "TEMPLATES/failure template.md",
-    "DASHBOARD.md",
-    "failure_dashboard.md",
-    "03_SYSTEM/prompt_compiler.md",
-    "03_SYSTEM/master_os.md",
-    "01_NODES/characters/char_001.md",
+    "TEMPLATES/character_template.md",
     "01_NODES/scenes/scene_001.md",
+    "01_NODES/characters/char_002.md",
+    "DASHBOARD.md",
+    "01_NODES/characters/char_001.md",
     "01_NODES/styles/style_001.md",
     "02_ASSETS/images/Untitled.md",
     "02_ASSETS/images/scenes",
     "02_ASSETS/images/characters",
     "02_ASSETS/images/characters.md",
-    "03_SYSTEM/style_memory.md",
-    "TEMPLATES/character_template.md",
     "TEMPLATES/prompt_template.md",
     "TEMPLATES/generation_template.md",
     "02_ASSETS/videos",
@@ -259,17 +263,13 @@
     "TEMPLATES",
     "03_SYSTEM",
     "01_NODES/styles",
-    "01_NODES/Untitled.md",
     "01_NODES/failures",
-    "01_NODES/prompts",
     "PRMPT_XXX_V2.md",
     "03_SYSTEM/Style_memory.md",
     "TEMPLATES/prompt_compiler_v2.md",
     "01_NODES/prompts.md",
     "03_SYSTEM/prioritization_rules.md",
     "03_SYSTEM/graph_index.md",
-    "03_SYSTEM/asset_registry.md",
-    "TEMPLATES/Failure_Template.md",
     "Untitled.canvas"
   ]
 }

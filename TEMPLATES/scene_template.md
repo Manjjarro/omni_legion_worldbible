@@ -17,27 +17,26 @@ risk_level: low
 ---
 type: scene
 id: SCENE_XXX
-depends_on: []
-sequence_order: 1
-duration_sec: 4.0
-scene: ""
+characters: []
+style: STYLE_001
+sequence: 1
+duration: 4
 camera: ""
 environment: ""
 objective: ""
-version: 1
+motion_level: static
 ---
 
 # SCENE
 
-## Scene Description
-- 
+## DESCRIPTION
+-
 
-## Camera
-- 
+## CAMERA
+-
 
-## Environment
-- 
+## ENVIRONMENT
+-
 
-## Motion & Timeline Notes
-- direction: [e.g., slow pan right, static, tracking]
-- pace: [e.g., hyper-lapse, slow-motion]
+## MOTION RULE
+static-first composition (only background moves)

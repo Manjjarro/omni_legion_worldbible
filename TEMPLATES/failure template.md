@@ -5,22 +5,14 @@ id: FAIL_XXX
 ---
 type: failure
 id: FAIL_XXX
-linked_character: ""
-linked_scene: ""
-failure_class: identity
+scene: ""
+character: ""
+type_class: identity | style | motion
 count: 1
 ---
 
-# FAILURE LOG
-
-## Problem
+## ISSUE
 -
 
-## Cause
--
-
-## Fix
--
-
-## Rule Generated
+## FIX
 -

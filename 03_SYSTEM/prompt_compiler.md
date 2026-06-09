@@ -1,31 +1,83 @@
 ```dataviewjs
-let scene = dv.page("01_NODES/scenes/SCENE_001");
+let scene = dv.current().scene;
 
 if (!scene) {
-  dv.paragraph("Scene not found");
+  dv.paragraph("Select a scene in frontmatter.");
   return;
 }
 
-let chars = scene.depends_on ?? [];
-let char = null;
-let style = null;
-
-for (let c of chars) {
-  let node = dv.page(c);
-  if (!node) continue;
-
-  if (node.type === "character") char = node;
-  if (node.type === "style") style = node;
+let s = dv.page(scene);
+if (!s) {
+  dv.paragraph("Scene not found.");
+  return;
 }
 
-let prompt =
-`CHARACTER: ${char?.identity_anchor ?? "missing"}
-SCENE: ${scene.scene}
-CAMERA: ${scene.camera}
-ENVIRONMENT: ${scene.environment}
-STYLE: ${style?.stability ?? "default"}
-NEGATIVE: ${style?.negative_style ?? ""}`;
+// -------------------------
+// LOAD STYLE
+// -------------------------
+let style = dv.page(s.style);
 
-dv.header(2, "COMPILED PROMPT");
-dv.code(prompt);
+// -------------------------
+// LOAD CHARACTERS
+// -------------------------
+let chars = (s.characters ?? [])
+  .map(c => dv.page(c))
+  .filter(Boolean);
+
+// -------------------------
+// STYLE FILTER (deterministic)
+// -------------------------
+function clean(text, styleNode){
+  if (!text) return "";
+
+  let out = text;
+
+  let tokens = styleNode?.tokens_to_strip ?? [];
+
+  for (let t of tokens) {
+    out = out.split(t).join("");
+  }
+
+  return out.replace(/\s+/g,' ').trim();
+}
+
+// -------------------------
+// CHARACTER BLOCK
+// -------------------------
+let charBlock = chars.map(c =>
+  `CHAR: ${c.identity_anchor}`
+).join("\n");
+
+// -------------------------
+// SCENE CORE
+// -------------------------
+let sceneCore =
+`SCENE: ${s.objective}
+ENV: ${s.environment}
+CAMERA: ${s.camera}`;
+
+// -------------------------
+// FINAL PROMPT
+// -------------------------
+let prompt =
+`${charBlock}
+
+${sceneCore}
+
+STYLE: ${style?.file?.name ?? "default"}
+
+NEGATIVE: ${style?.negative ?? ""}`;
+
+dv.header(2, "MASTER PROMPT ENGINE");
+dv.code(clean(prompt, style));
+
+// -------------------------
+// TIMELINE LAYER
+// -------------------------
+dv.header(3, "TIMELINE SEQUENCE");
+
+dv.table(
+["Scene", "Order", "Duration"],
+[[s.file.name, s.sequence ?? 1, s.duration ?? 4]]
+);
 ```
