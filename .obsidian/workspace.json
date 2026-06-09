@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_SYSTEM/prompt_compiler.md",
+                "file": "03_SYSTEM/style_memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "prompt_compiler"
+              "title": "style_memory"
             }
           }
         ]
@@ -219,8 +219,9 @@
   },
   "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
-    "03_SYSTEM/core_rules.md",
     "03_SYSTEM/prompt_compiler.md",
+    "03_SYSTEM/style_memory.md",
+    "03_SYSTEM/core_rules.md",
     "DASHBOARD.md",
     "02_ASSETS/images/characters.md",
     "DASHBOARD",
@@ -254,7 +255,6 @@
     "02_WORLDBUILDING/world_state.md",
     "07_EVAL/style_drift_log.md",
     "06_ASSETS/asset_promotion_system.md",
-    "01_CHARACTERS/Ren/character_distilllation.md",
     "Untitled.canvas"
   ]
 }
