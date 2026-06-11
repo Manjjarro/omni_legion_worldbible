@@ -1,7 +1,7 @@
 ---
 type: system
 id: BRAND_GUIDE
-version: "3.0"
+version: '4.3'
 series: Grimverse
 ---
 

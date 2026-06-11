@@ -3,7 +3,7 @@ type: engine
 id: VIDEO_ENGINE
 mode: video
 status: legacy
-version: "3.0"
+version: '4.3'
 ---
 
 # Video Engine

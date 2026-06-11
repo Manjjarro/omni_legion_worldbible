@@ -2,7 +2,8 @@
 type: shot
 id: SHOT_006
 series: Grimverse
-scene: [[SCENE_003]]
+scene:
+- SCENE_003
 shot_number: 6
 duration_seconds: 6
 fps: 24
@@ -12,12 +13,14 @@ composition: emotional beat, tightened frame
 status: Planned
 priority: 6
 characters:
-  - [[CHAR_001_REN]]
-  - [[CHAR_002_SERAPH]]
-image_source: ""
-video_source: ""
+- CHAR_001_REN
+- CHAR_002_SERAPH
+image_source: ''
+video_source: ''
 motion_strength: 0.55
-version: "3.0"
+version: '4.3'
+aliases:
+- SHOT_006
 ---
 
 # Shot 006

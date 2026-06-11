@@ -15,14 +15,17 @@ emotion: grim resolve
 story_function: consequence
 visual_anchor: flooded underpass, red emergency glow, fog, broken signage
 characters:
-  - [[CHAR_001_REN]]
-  - [[CHAR_002_SERAPH]]
+- CHAR_001_REN
+- CHAR_002_SERAPH
 shots:
-  - [[SHOT_006]]
-  - [[SHOT_007]]
+- SHOT_006
+- SHOT_007
 continuity_score: 0
-active_event: [[EVENT_001_FIRST_PULSE_STRIKE]]
-version: "3.0"
+active_event:
+- EVENT_001_FIRST_PULSE_STRIKE
+version: '4.3'
+aliases:
+- SCENE_003
 ---
 
 # Scene 003 — The Cost of Winning

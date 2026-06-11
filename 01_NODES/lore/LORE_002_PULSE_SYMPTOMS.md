@@ -1,10 +1,12 @@
 ---
 type: lore
 id: LORE_002
-version: "3.0"
+version: '4.3'
 series: Grimverse
 topic: Pulse Symptoms
 canon_status: approved
+aliases:
+- LORE_002
 ---
 
 # Pulse Symptoms

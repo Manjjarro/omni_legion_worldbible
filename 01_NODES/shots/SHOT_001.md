@@ -1,9 +1,10 @@
 ---
 type: shot
 id: SHOT_001
-version: "3.0"
+version: '4.3'
 series: Grimverse
-scene: [[SCENE_001]]
+scene:
+- SCENE_001
 shot_number: 1
 duration_seconds: 6
 fps: 24
@@ -13,10 +14,12 @@ composition: Ren framed under the rusted awning, enemies implied in the depth of
 status: Planned
 priority: 1
 characters:
-  - [[CHAR_001_REN]]
-image_source: ""
-video_source: ""
+- CHAR_001_REN
+image_source: ''
+video_source: ''
 motion_strength: 0.65
+aliases:
+- SHOT_001
 ---
 
 # Shot 001

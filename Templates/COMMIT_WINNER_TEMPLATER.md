@@ -26,10 +26,11 @@ promoted_date: ${tp.date.now("YYYY-MM-DD")}
 `;
 
 // ── Find pending events (delta_applied: false) ───────────────────────────
-const pendingEvents = dv ? 
-  dv.pages('"01_NODES/events"')
-    .where(p => p.type === "event" && p.delta_applied === false)
-    .array() : [];
+const pendingEvents = (typeof dv !== "undefined" && dv && typeof dv.pages === "function")
+  ? dv.pages('"01_NODES/events"')
+      .where(p => p.type === "event" && p.delta_applied === false)
+      .array()
+  : [];
 
 // ── Build CANON_PROMOTION block ───────────────────────────────────────────
 const shotId = fm.shot ?? fm.id ?? "UNKNOWN_SHOT";

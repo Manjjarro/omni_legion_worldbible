@@ -1,0 +1,24 @@
+---
+description: Package all approved shots and continuity notes for an episode.
+globs: 01_NODES/episodes/**/*, 01_NODES/scenes/**/*, 01_NODES/shots/**/*, 02_PRODUCTION/**/*, 03_SYSTEM/**/*
+---
+
+# Grimverse Episode Packager
+
+Build the episode package from:
+- the episode note
+- its scenes
+- its shots
+- its winners
+- its state deltas
+
+## Output
+- episode summary
+- shot package list
+- asset completeness summary
+- continuity notes
+- next-step checklist
+- state delta checklist
+
+## Rule
+If a shot is marked complete but no asset exists, the package is incomplete.

@@ -1,0 +1,26 @@
+---
+description: Validate node links, statuses, and asset completeness.
+globs: 01_NODES/**/*, 02_PRODUCTION/**/*, 03_SYSTEM/**/*
+---
+
+# Grimverse Validation Rule
+
+Validate before generation.
+
+## Required checks
+- Shot has valid scene link
+- Scene has valid episode link
+- Character references resolve by id, stem, or alias
+- State node exists for active characters
+- Status is from the approved schema
+- Completed shots have image_source and video_source
+- Asset source paths resolve to existing files when provided
+- Template placeholders such as `${tp.user.sceneId}` are ignored in template files only
+
+## Failure behavior
+- Stop and report critical issues
+- Do not auto-correct canon silently
+- Suggest the smallest safe fix
+
+## Execution note
+If the vault includes `03_SYSTEM/validate_vault.py`, treat it as the authoritative executable checker for batch audits.

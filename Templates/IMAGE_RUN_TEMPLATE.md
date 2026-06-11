@@ -1,10 +1,10 @@
 ---
 type: image_run
 id: IMG_RUN_XXX
-version: "3.0"
+version: '4.3'
 series: Grimverse
-scene: [[SCENE_XXX]]
-shot: [[SHOT_XXX]]
+scene: ''
+shot: ''
 engine: flux-dev
 seed: 0
 steps: 30
@@ -13,8 +13,8 @@ resolution: 1024x1536
 status: Draft
 score: 0
 winner: false
-output_path: ""
-reviewed_date: ""
+output_path: ''
+reviewed_date: ''
 ---
 
 # Image Run

@@ -1,20 +1,20 @@
 ---
 type: scene
 id: SCENE_XXX
-version: "3.0"
+version: '4.3'
 series: Grimverse
 arc: ARC_001
 episode: EP_001
 sequence: 1
-title: "Scene Title"
+title: Scene Title
 status: Planned
 storyboard_status: Planned
-goal: ""
-conflict: ""
-stakes: ""
-emotion: ""
-story_function: ""
-visual_anchor: ""
+goal: ''
+conflict: ''
+stakes: ''
+emotion: ''
+story_function: ''
+visual_anchor: ''
 characters: []
 shots: []
 continuity_score: 0

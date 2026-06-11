@@ -1,7 +1,7 @@
 <%*
 const shotNum = tp.user.shotNumber ?? "001";
 const shotId = `SHOT_${shotNum}`;
-const sceneLink = tp.user.sceneId ? `[[${tp.user.sceneId}]]` : "[[SCENE_XXX]]";
+const sceneLink = tp.user.sceneId ? `[[${tp.user.sceneId}]]` : "";
 tR += `---
 type: shot
 id: ${shotId}

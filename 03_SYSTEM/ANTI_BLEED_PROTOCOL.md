@@ -1,7 +1,7 @@
 ---
 type: system
 id: ANTI_BLEED_PROTOCOL
-version: "3.0"
+version: '4.3'
 series: Grimverse
 ---
 

@@ -7,12 +7,14 @@ episode_number: 2
 title: Ash Contract
 status: Planned
 tone: grim_dark
-winner_strategy: "Let Ren win the scene, not the world."
+winner_strategy: Let Ren win the scene, not the world.
 scenes:
-  - SCENE_004
-  - SCENE_005
-  - SCENE_006
-version: "3.0"
+- SCENE_004
+- SCENE_005
+- SCENE_006
+version: '4.3'
+aliases:
+- EP_002
 ---
 
 # Episode 002 — Ash Contract

@@ -1,13 +1,13 @@
 ---
 type: faction
 id: FACTION_XXX
-version: "3.0"
+version: '4.3'
 series: Grimverse
 name: Faction Name
-leader: ""
+leader: ''
 alignment: hostile
-region: ""
-motif: ""
+region: ''
+motif: ''
 ---
 
 # Faction: Faction Name

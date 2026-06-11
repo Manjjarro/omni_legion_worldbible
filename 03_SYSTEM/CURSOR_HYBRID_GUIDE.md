@@ -1,7 +1,7 @@
 ---
 type: system
 id: CURSOR_HYBRID_GUIDE
-version: "3.0"
+version: '4.3'
 ---
 
 # Cursor Hybrid Guide
@@ -62,3 +62,7 @@ Do not let Cursor rewrite canon without an explicit packaging step.
 - Review reasoning
 
 Only the visual payload should reach the generator prompt.
+
+
+## Link resolution rule
+For Arc, Episode, Event, and State notes, Cursor should resolve by `id` and aliases, not by filename alone.

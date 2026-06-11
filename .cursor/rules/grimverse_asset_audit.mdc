@@ -1,0 +1,19 @@
+---
+description: Audit asset references for approved shots and winner packages.
+globs: 01_NODES/**/*, 02_PRODUCTION/**/*, 03_SYSTEM/**/*
+---
+
+# Grimverse Asset Audit Rule
+
+Before a shot is promoted:
+- verify the referenced image_source exists
+- verify the referenced video_source exists
+- verify the source paths are vault-relative and not placeholder text
+- verify the run/review chain is complete for the same shot id
+- verify the shot status is one of the approved production states
+
+## Failure behavior
+- Stop on missing assets
+- Stop on broken asset paths
+- Stop on unresolved placeholder references
+- Do not mark a shot complete unless the file exists

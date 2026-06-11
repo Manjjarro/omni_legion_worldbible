@@ -1,12 +1,12 @@
 ---
 type: character
 id: CHAR_XXX
-version: "3.0"
+version: '4.3'
 name: Character Name
 series: Grimverse
 tier: 1
 status: Core
-weapon: ""
+weapon: ''
 identity_anchors: []
 psychological_anchors: []
 combat_anchors: []

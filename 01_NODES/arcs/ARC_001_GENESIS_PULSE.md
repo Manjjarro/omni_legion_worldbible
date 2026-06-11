@@ -8,7 +8,9 @@ protagonist_start: Human
 protagonist_end: Monster-Adjacent
 core_question: What is worth sacrificing for power?
 status: Active
-version: "3.0"
+version: '4.3'
+aliases:
+- ARC_001
 ---
 
 # Arc 001 — Genesis Pulse

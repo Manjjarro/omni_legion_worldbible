@@ -1,10 +1,12 @@
 ---
 type: lore
 id: LORE_001
-version: "3.0"
+version: '4.3'
 series: Grimverse
 topic: Genesis Pulse
 canon_status: approved
+aliases:
+- LORE_001
 ---
 
 # Genesis Pulse

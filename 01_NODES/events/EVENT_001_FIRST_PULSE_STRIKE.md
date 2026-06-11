@@ -1,7 +1,7 @@
 ---
 type: event
 id: EVENT_001_FIRST_PULSE_STRIKE
-version: "3.0"
+version: '4.3'
 series: Grimverse
 arc: ARC_001
 episode: EP_001
@@ -9,26 +9,31 @@ scene: SCENE_001
 sequence: 1
 title: First Pulse Strike on Sector 7
 status: Canonical
-date_in_world: "Timeline fractured — Day 0 of Arc 001"
+date_in_world: Timeline fractured — Day 0 of Arc 001
 participants:
-  - [[CHAR_001_REN]]
-  - [[CHAR_002_SERAPH]]
+- CHAR_001_REN
+- CHAR_002_SERAPH
 locations:
-  - [[LOC_001_SECTOR_7]]
+- LOC_001_SECTOR_7
 factions:
-  - [[FACTION_001_NULL_CHOIR]]
+- FACTION_001_NULL_CHOIR
 consequences:
-  - "Ren's crimson eyes first show fracture-glow under Pulse overload (cosmetic, NOT identity change)"
-  - "Sector 7 grid goes dark — no electronics until end of EP_001"
-  - "Null Choir establishes presence; Iron Veil unaware"
-  - "Seraph's loyalty threshold is tested for the first time"
+- Ren's crimson eyes first show fracture-glow under Pulse overload (cosmetic, NOT
+  identity change)
+- Sector 7 grid goes dark — no electronics until end of EP_001
+- Null Choir establishes presence; Iron Veil unaware
+- Seraph's loyalty threshold is tested for the first time
 triggers:
-  - "Genesis Pulse activation by unknown source"
+- Genesis Pulse activation by unknown source
 forbids:
-  - "Any scene in EP_001 where electronics function normally in Sector 7"
-  - "Ren displaying eye color other than crimson"
+- Any scene in EP_001 where electronics function normally in Sector 7
+- Ren displaying eye color other than crimson
 delta_applied: true
-linked_state: [[STATE_001_REN_POST_EP001]]
+linked_state:
+- STATE_001_REN_POST_EP001
+aliases:
+- EVENT_001
+- EVENT_001_FIRST_PULSE_STRIKE
 ---
 
 # Event 001 — First Pulse Strike on Sector 7

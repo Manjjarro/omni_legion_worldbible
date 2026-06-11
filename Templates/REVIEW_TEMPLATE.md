@@ -1,11 +1,11 @@
 ---
 type: review
 id: REVIEW_XXX
-version: "3.0"
+version: '4.3'
 series: Grimverse
-scene: [[SCENE_XXX]]
-shot: [[SHOT_XXX]]
-run_reviewed: [[IMG_RUN_XXX]]
+scene: ''
+shot: ''
+run_reviewed: ''
 review_type: image
 verdict: pending
 continuity_score: 0

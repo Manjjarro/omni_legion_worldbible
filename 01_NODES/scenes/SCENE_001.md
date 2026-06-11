@@ -15,14 +15,16 @@ emotion: controlled dread
 story_function: inciting incident
 visual_anchor: industrial rain alley, rusted awning, dense fog, low-angle confrontation
 characters:
-  - [[CHAR_001_REN]]
-  - [[CHAR_002_SERAPH]]
+- CHAR_001_REN
+- CHAR_002_SERAPH
 shots:
-  - [[SHOT_001]]
-  - [[SHOT_002]]
-  - [[SHOT_003]]
+- SHOT_001
+- SHOT_002
+- SHOT_003
 continuity_score: 0
-version: "3.0"
+version: '4.3'
+aliases:
+- SCENE_001
 ---
 
 # Scene 001 — The Zero-Point Mandate

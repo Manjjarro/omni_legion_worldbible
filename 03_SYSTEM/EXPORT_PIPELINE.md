@@ -1,7 +1,7 @@
 ---
 type: system
 id: EXPORT_PIPELINE
-version: "3.0"
+version: '4.3'
 ---
 
 # Export Pipeline

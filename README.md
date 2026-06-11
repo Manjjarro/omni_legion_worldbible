@@ -1,4 +1,4 @@
-# Grimverse Studio OS 3.0
+# Grimverse Studio OS 3.3
 
 A hybrid Obsidian + Cursor operating system for dark cinematic AI series production.
 
@@ -58,3 +58,4 @@ Protagonist type: antihero with wins, losses, and consequences
 - **V2.2**: Full V2.2 hardening — psychology injection in both engines, VIDEO_ENGINE parity with PROMPT_ENGINE, Prompt Pruner (top-3 event cap), DELTA_VISUALIZER dashboard, COMMIT_WINNER_TEMPLATER with auto-propagation workflow, SHOT_004–007 fully fleshed, EP_002 briefed, quoted frontmatter links standardized, EVENT_001 delta_applied confirmed
 - **V2.6**: Prompt engine cleanup, short-form prompt output, state parsing repair, version normalization
 - **V3.0**: Hybrid Obsidian + Cursor runtime, Cursor rule engine added, Obsidian compiler pages converted to canon handoff docs, shot package spec added, hybrid workflow added
+- **V3.3**: Frontmatter link normalization, executable vault validator, stronger asset audit, tighter runtime rule enforcement, root-folder normalization

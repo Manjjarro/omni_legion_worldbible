@@ -1,0 +1,28 @@
+---
+description: Grimverse canon guardrail and read-only data policy.
+globs: 01_NODES/**/*, 03_SYSTEM/**/*, Templates/**/*
+---
+
+# Grimverse Canon Rule
+
+Treat Obsidian as the canonical data source.
+
+## Hard Rules
+- Do not rewrite canon unless the user explicitly asks for an edit or packaging pass.
+- Do not invent missing facts when a node is absent; report the gap.
+- Prefer direct node references over paraphrase.
+- Keep story explanation out of final generator prompts.
+- Keep the runtime layer separate from the data layer.
+
+## Allowed Outputs
+- Validation notes
+- Package summaries
+- Prompt bundles
+- Continuity warnings
+- State delta suggestions
+
+## Forbidden
+- Silent canon edits
+- Prompt bloat
+- Mixing lore text into final generator payloads
+- Suppressing missing-state warnings

@@ -1,0 +1,22 @@
+---
+description: Build high-contrast thumbnail prompts from approved shot canon.
+globs: 01_NODES/shots/**/*, 01_NODES/scenes/**/*, 01_NODES/characters/**/*, 03_SYSTEM/**/*
+---
+
+# Grimverse Thumbnail Rule
+
+Thumbnail prompts should:
+- keep one focal subject
+- maximize face readability
+- favor strong silhouette contrast
+- avoid lore bloat
+- prioritize click-through clarity
+
+## Output
+- Thumbnail prompt
+- Optional title cue
+- Optional composition cue
+- Optional contrast cue
+
+## Rule
+If the thumbnail prompt is longer than the shot prompt, compress it.

@@ -3,7 +3,7 @@ type: engine
 id: PROMPT_ENGINE
 mode: image
 status: legacy
-version: "3.0"
+version: '4.3'
 ---
 
 # Prompt Engine

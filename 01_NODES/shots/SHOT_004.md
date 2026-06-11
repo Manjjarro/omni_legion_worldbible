@@ -2,7 +2,8 @@
 type: shot
 id: SHOT_004
 series: Grimverse
-scene: [[SCENE_002]]
+scene:
+- SCENE_002
 shot_number: 4
 duration_seconds: 5
 fps: 24
@@ -12,11 +13,13 @@ composition: corridor lines funnel toward Ren
 status: Planned
 priority: 4
 characters:
-  - [[CHAR_001_REN]]
-image_source: ""
-video_source: ""
+- CHAR_001_REN
+image_source: ''
+video_source: ''
 motion_strength: 0.7
-version: "3.0"
+version: '4.3'
+aliases:
+- SHOT_004
 ---
 
 # Shot 004

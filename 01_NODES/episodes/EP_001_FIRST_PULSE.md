@@ -7,8 +7,10 @@ episode_number: 1
 title: First Pulse
 status: Active
 tone: grim_dark
-winner_strategy: "Win the fight, lose the day."
-version: "3.0"
+winner_strategy: Win the fight, lose the day.
+version: '4.3'
+aliases:
+- EP_001
 ---
 
 # Episode 001 — First Pulse

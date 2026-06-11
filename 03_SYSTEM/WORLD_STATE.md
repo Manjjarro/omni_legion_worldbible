@@ -6,19 +6,20 @@ world_name: Grimverse Canon
 timeline: fractured future
 primary_genre: grim_dark
 secondary_genres:
-  - dark_fantasy
-  - post_collapse_sci_fi
-  - noir
+- dark_fantasy
+- post_collapse_sci_fi
+- noir
 style_lock: GRIMVERSE_STYLE_LOCK
-progression_rule: "Power is visible, but every gain creates a scar, cost, or loss."
-pulse_rule: "The Genesis Pulse disrupts electronics, weakens systems, and exposes hidden human intent."
+progression_rule: Power is visible, but every gain creates a scar, cost, or loss.
+pulse_rule: The Genesis Pulse disrupts electronics, weakens systems, and exposes hidden
+  human intent.
 forbidden_world_elements:
-  - bright_comedy_tone
-  - casual sci_fi_gadgets
-  - clean heroic triumphs
-  - random lore retcons
-series_bible: "Maintain continuity across arcs, episodes, and shots."
-version: "3.0"
+- bright_comedy_tone
+- casual sci_fi_gadgets
+- clean heroic triumphs
+- random lore retcons
+series_bible: Maintain continuity across arcs, episodes, and shots.
+version: '4.3'
 ---
 
 # World State

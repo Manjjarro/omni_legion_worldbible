@@ -1,10 +1,8 @@
 ---
 type: system
-id: HEALTH_CHECK
-version: "3.0"
+version: '4.3'
 ---
-
-# Health Check
+# Health Check (Production Hardened)
 
 ```dataviewjs
 function resolvePath(val) {
@@ -17,126 +15,125 @@ function resolvePath(val) {
 function keyVariants(val) {
   const raw = resolvePath(val);
   if (!raw) return [];
-  return [...new Set([
-    raw,
-    raw.split("/").pop(),
-    raw.replace(/\.md$/i, "")
-  ].filter(Boolean))];
+  return [...new Set([raw, raw.split("/").pop(), raw.replace(/\.md$/i, "")].filter(Boolean))];
 }
 
 function hasPage(ref) {
   return keyVariants(ref).some(k => !!dv.page(k));
 }
 
-const shots = dv.pages('"01_NODES/shots"');
-const scenes = dv.pages('"01_NODES/scenes"');
-const chars = dv.pages('"01_NODES/characters"');
-const arcs = dv.pages('"01_NODES/arcs"');
-const eps = dv.pages('"01_NODES/episodes"');
-const factions = dv.pages('"01_NODES/factions"');
-const locations = dv.pages('"01_NODES/locations"');
+function hasFile(path) {
+  const normalized = resolvePath(path);
+  if (!normalized) return false;
+  return !!app.vault.getAbstractFileByPath(normalized) || !!app.vault.getAbstractFileByPath(normalized + ".md");
+}
 
-const events = dv.pages('"01_NODES/events"').where(p => p.type === "event");
-const states = dv.pages('"01_NODES/state"').where(p => p.type === "character_state");
+function uniq(arr) { return [...new Set(arr.filter(Boolean))]; }
 
-const stateCharKeys = new Set(
-  states.array().flatMap(s => [
-    ...keyVariants(s.character),
-    ...keyVariants(s.file.name),
-    ...keyVariants(s.file.path)
-  ])
-);
+const scenes = dv.pages('"01_NODES/scenes"').array();
+const shots = dv.pages('"01_NODES/shots"').array();
+const chars = dv.pages('"01_NODES/characters"').array();
+const arcs = dv.pages('"01_NODES/arcs"').array();
+const eps = dv.pages('"01_NODES/episodes"').array();
+const events = dv.pages('"01_NODES/events"').array();
+const states = dv.pages('"01_NODES/state"').array();
+const factions = dv.pages('"01_NODES/factions"').array();
+const locations = dv.pages('"01_NODES/locations"').array();
+
+const allowed = new Set(["Draft","Planned","Prompted","Generating","Review","Winner","Approved","Complete","Failed","Pending","Canonical","Review Needed"]);
 
 let critical = [];
 let warnings = [];
-let v2checks = [];
+let info = [];
 
-// ── SHOTS ─────────────────────────────────────────────────────────────────
-for (const shot of shots) {
-  if (!shot.scene) critical.push(`❌ ${shot.file.name} missing scene`);
-  if (!shot.characters || shot.characters.length === 0) warnings.push(`⚠️ ${shot.file.name} missing characters`);
-  if (!shot.camera) warnings.push(`⚠️ ${shot.file.name} missing camera`);
-  if (!shot.motion) warnings.push(`⚠️ ${shot.file.name} missing motion`);
-  if (shot.duration_seconds == null) warnings.push(`⚠️ ${shot.file.name} missing duration_seconds`);
-  if (shot.shot_number == null) warnings.push(`⚠️ ${shot.file.name} missing shot_number`);
-  if (shot.scene && !hasPage(shot.scene)) critical.push(`❌ ${shot.file.name} broken scene link`);
+// duplicate IDs
+const ids = new Map();
+for (const p of [...scenes, ...shots, ...chars, ...arcs, ...eps, ...events, ...states, ...factions, ...locations]) {
+  const id = p.id ?? p.file.name;
+  if (ids.has(id)) critical.push(`❌ Duplicate id: ${id} (${ids.get(id)} and ${p.file.name})`);
+  else ids.set(id, p.file.name);
 }
 
-// ── SCENES ────────────────────────────────────────────────────────────────
+// scenes
 for (const scene of scenes) {
   if (!scene.episode) critical.push(`❌ ${scene.file.name} missing episode`);
-  if (!hasPage(scene.episode)) critical.push(`❌ ${scene.file.name} broken episode link`);
+  else if (!hasPage(scene.episode)) critical.push(`❌ ${scene.file.name} broken episode link`);
   if (!scene.shots || scene.shots.length === 0) critical.push(`❌ ${scene.file.name} missing shots`);
-  if (!scene.visual_anchor) critical.push(`❌ ${scene.file.name} missing visual_anchor`);
+  if (!scene.visual_anchor) warnings.push(`⚠️ ${scene.file.name} missing visual_anchor`);
   if (!scene.goal) warnings.push(`⚠️ ${scene.file.name} missing goal`);
   if (!scene.conflict) warnings.push(`⚠️ ${scene.file.name} missing conflict`);
   if (!scene.stakes) warnings.push(`⚠️ ${scene.file.name} missing stakes`);
+  if (!scene.story_function) warnings.push(`⚠️ ${scene.file.name} missing story_function`);
+  if (scene.status && !allowed.has(scene.status)) warnings.push(`⚠️ ${scene.file.name} has unusual status "${scene.status}"`);
 }
 
-// ── CHARACTERS ────────────────────────────────────────────────────────────
+// shots
+for (const shot of shots) {
+  if (!shot.scene) critical.push(`❌ ${shot.file.name} missing scene`);
+  else if (!hasPage(shot.scene)) critical.push(`❌ ${shot.file.name} broken scene link`);
+  if (!shot.camera) warnings.push(`⚠️ ${shot.file.name} missing camera`);
+  if (!shot.motion) warnings.push(`⚠️ ${shot.file.name} missing motion`);
+  if (shot.duration_seconds == null) warnings.push(`⚠️ ${shot.file.name} missing duration_seconds`);
+  if (!shot.characters || shot.characters.length === 0) warnings.push(`⚠️ ${shot.file.name} has no characters listed`);
+  if (shot.status && !allowed.has(shot.status)) warnings.push(`⚠️ ${shot.file.name} has unusual status "${shot.status}"`);
+
+  const completed = ["Winner", "Approved", "Complete"].includes(String(shot.status ?? ""));
+  if (completed && !shot.image_source) critical.push(`❌ ${shot.file.name} is ${shot.status} but missing image_source`);
+  if (completed && !shot.video_source) critical.push(`❌ ${shot.file.name} is ${shot.status} but missing video_source`);
+  if (completed && shot.image_source && !hasFile(shot.image_source)) critical.push(`❌ ${shot.file.name} image_source does not resolve to a file: ${shot.image_source}`);
+  if (completed && shot.video_source && !hasFile(shot.video_source)) critical.push(`❌ ${shot.file.name} video_source does not resolve to a file: ${shot.video_source}`);
+}
+
+// chars
 for (const char of chars) {
   if (!char.identity_anchors || char.identity_anchors.length === 0) critical.push(`❌ ${char.file.name} missing identity_anchors`);
   if (!char.psychological_anchors || char.psychological_anchors.length === 0) warnings.push(`⚠️ ${char.file.name} missing psychological_anchors`);
   if (!char.combat_anchors || char.combat_anchors.length === 0) warnings.push(`⚠️ ${char.file.name} missing combat_anchors`);
-
-  const charKeys = [...new Set([...keyVariants(char.file.name), ...keyVariants(char.file.path)])];
-  if (!charKeys.some(k => stateCharKeys.has(k))) {
-    v2checks.push(`🔷 ${char.file.name} has no CHARACTER_STATE node — create in 01_NODES/state/`);
-  }
 }
 
-// ── ARCS ──────────────────────────────────────────────────────────────────
+// arcs / eps
 for (const arc of arcs) {
-  if (!arc.theme) warnings.push(`⚠️ ${arc.file.name} missing theme`);
   if (!arc.core_question) warnings.push(`⚠️ ${arc.file.name} missing core_question`);
+  if (!arc.theme) warnings.push(`⚠️ ${arc.file.name} missing theme`);
 }
-
-// ── EPISODES ──────────────────────────────────────────────────────────────
 for (const ep of eps) {
-  if (ep.arc == null) critical.push(`❌ ${ep.file.name} missing arc`);
-  if (!hasPage(ep.arc)) critical.push(`❌ ${ep.file.name} broken arc link`);
+  if (!ep.arc) critical.push(`❌ ${ep.file.name} missing arc`);
+  else if (!hasPage(ep.arc)) critical.push(`❌ ${ep.file.name} broken arc link`);
   if (ep.episode_number == null) warnings.push(`⚠️ ${ep.file.name} missing episode_number`);
+  if (!ep.title) warnings.push(`⚠️ ${ep.file.name} missing title`);
+  if (ep.status && !allowed.has(ep.status)) warnings.push(`⚠️ ${ep.file.name} has unusual status "${ep.status}"`);
 }
 
-// ── FACTIONS & LOCATIONS ──────────────────────────────────────────────────
-for (const item of factions) {
-  if (!item.leader) warnings.push(`⚠️ ${item.file.name} missing leader`);
-}
-for (const item of locations) {
-  if (!item.region) warnings.push(`⚠️ ${item.file.name} missing region`);
-}
-
-// ── V2 EVENT CHECKS ────────────────────────────────────────────────────────
-if (events.length === 0) {
-  v2checks.push(`🔷 No EVENT nodes found — create first EVENT in 01_NODES/events/`);
-} else {
-  for (const ev of events) {
-    if (!ev.consequences || ev.consequences.length === 0)
-      v2checks.push(`🔷 ${ev.file.name} has no consequences defined`);
-    if (!ev.participants || ev.participants.length === 0)
-      v2checks.push(`🔷 ${ev.file.name} has no participants listed`);
-    if (ev.delta_applied === false)
-      v2checks.push(`🔷 ${ev.file.name} — delta_applied: false. Run state propagation.`);
-  }
+// events
+for (const ev of events) {
+  if (!ev.participants || ev.participants.length === 0) warnings.push(`⚠️ ${ev.file.name} has no participants`);
+  if (!ev.consequences || ev.consequences.length === 0) warnings.push(`⚠️ ${ev.file.name} has no consequences`);
+  if (ev.delta_applied === false) warnings.push(`⚠️ ${ev.file.name} delta_applied is false`);
+  if (ev.status && !allowed.has(ev.status)) warnings.push(`⚠️ ${ev.file.name} has unusual status "${ev.status}"`);
 }
 
-// ── V2 ARC STATE LOCK COMPLIANCE ──────────────────────────────────────────
-for (const state of states) {
-  if (!state.physical_state || state.physical_state.length === 0)
-    v2checks.push(`🔷 ${state.file.name} missing physical_state`);
-  if (!state.scarring_log || state.scarring_log.length === 0)
-    v2checks.push(`🔷 ${state.file.name} missing scarring_log — progression_rule requires scar tracking`);
-  if (!state.forbidden_drift || state.forbidden_drift.length === 0)
-    v2checks.push(`🔷 ${state.file.name} missing forbidden_drift — ARC_STATE_LOCK not enforced`);
+// state
+for (const st of states) {
+  if (!st.character) critical.push(`❌ ${st.file.name} missing character`);
+  else if (!hasPage(st.character)) critical.push(`❌ ${st.file.name} broken character link`);
+  if (!st.physical_state || st.physical_state.length === 0) warnings.push(`⚠️ ${st.file.name} missing physical_state`);
+  if (!st.scarring_log || st.scarring_log.length === 0) warnings.push(`⚠️ ${st.file.name} missing scarring_log`);
+  if (!st.forbidden_drift || st.forbidden_drift.length === 0) warnings.push(`⚠️ ${st.file.name} missing forbidden_drift`);
+  if (st.status && !allowed.has(st.status)) warnings.push(`⚠️ ${st.file.name} has unusual status "${st.status}"`);
 }
 
-// ── OUTPUT ────────────────────────────────────────────────────────────────
-dv.paragraph("## ❌ Critical");
-dv.list(critical.length ? critical : ["✅ No critical issues found."]);
+// factions / locations
+for (const item of factions) if (!item.leader) warnings.push(`⚠️ ${item.file.name} missing leader`);
+for (const item of locations) if (!item.region) warnings.push(`⚠️ ${item.file.name} missing region`);
 
-dv.paragraph("## ⚠️ Warnings");
-dv.list(warnings.length ? warnings : ["✅ No warnings found."]);
+info.push(`Scanned nodes: ${scenes.length + shots.length + chars.length + arcs.length + eps.length + events.length + states.length + factions.length + locations.length}`);
 
-dv.paragraph("## 🔷 V2 Integration Checks (Events / State / ARC Lock)");
-dv.list(v2checks.length ? v2checks : ["✅ All V2 integration checks passed."]);
+dv.paragraph("## Critical");
+dv.list(uniq(critical).length ? uniq(critical) : ["✅ No critical issues found."]);
+
+dv.paragraph("## Warnings");
+dv.list(uniq(warnings).length ? uniq(warnings) : ["✅ No warnings found."]);
+
+dv.paragraph("## Info");
+dv.list(info);
 ```

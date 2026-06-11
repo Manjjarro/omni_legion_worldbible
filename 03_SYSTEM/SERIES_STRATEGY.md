@@ -1,7 +1,7 @@
 ---
 type: system
 id: SERIES_STRATEGY
-version: "3.0"
+version: '4.3'
 series: Grimverse
 ---
 

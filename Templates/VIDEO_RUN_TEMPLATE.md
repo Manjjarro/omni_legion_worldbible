@@ -1,10 +1,10 @@
 ---
 type: video_run
 id: VID_RUN_XXX
-version: "3.0"
+version: '4.3'
 series: Grimverse
-scene: [[SCENE_XXX]]
-shot: [[SHOT_XXX]]
+scene: ''
+shot: ''
 engine: PixVerse V4.5
 seed: 0
 fps: 24
@@ -13,8 +13,8 @@ motion_strength: 0.65
 status: Draft
 score: 0
 winner: false
-output_path: ""
-reviewed_date: ""
+output_path: ''
+reviewed_date: ''
 ---
 
 # Video Run

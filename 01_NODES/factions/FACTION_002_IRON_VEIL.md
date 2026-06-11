@@ -1,13 +1,15 @@
 ---
 type: faction
 id: FACTION_002
-version: "3.0"
+version: '4.3'
 series: Grimverse
 name: Iron Veil
 leader: Unknown
 alignment: neutral
 region: Black Glass Market
 motif: armor plates / veiled faces
+aliases:
+- FACTION_002
 ---
 
 # Iron Veil

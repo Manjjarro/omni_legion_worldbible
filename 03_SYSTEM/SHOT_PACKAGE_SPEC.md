@@ -1,7 +1,7 @@
 ---
 type: system
 id: SHOT_PACKAGE_SPEC
-version: "3.0"
+version: '4.3'
 ---
 
 # Shot Package Spec

@@ -8,7 +8,9 @@ protagonist_start: Changed
 protagonist_end: Dangerous
 core_question: What happens when survival becomes domination?
 status: Planned
-version: "3.0"
+version: '4.3'
+aliases:
+- ARC_002
 ---
 
 # Arc 002 — Shattered Throne

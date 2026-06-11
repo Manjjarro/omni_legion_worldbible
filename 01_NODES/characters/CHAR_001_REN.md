@@ -7,31 +7,33 @@ tier: 1
 status: Core
 weapon: Tactical combat knife
 identity_anchors:
-  - messy silver undercut hair
-  - solid crimson eyes
-  - dark slate-grey tactical trench coat
-  - black tactical underlayers
+- messy silver undercut hair
+- solid crimson eyes
+- dark slate-grey tactical trench coat
+- black tactical underlayers
 psychological_anchors:
-  - disciplined
-  - ruthless when cornered
-  - emotionally contained
-  - protective of the weak despite denial
+- disciplined
+- ruthless when cornered
+- emotionally contained
+- protective of the weak despite denial
 combat_anchors:
-  - knife specialist
-  - close-range ambush fighter
-  - low-profile movement
+- knife specialist
+- close-range ambush fighter
+- low-profile movement
 wardrobe_anchors:
-  - trench coat
-  - matte black gloves
+- trench coat
+- matte black gloves
 forbidden_changes:
-  - eye color
-  - hair color
-  - core weapon
+- eye color
+- hair color
+- core weapon
 linked_scenes:
-  - [[SCENE_001]]
-  - [[SCENE_002]]
-  - [[SCENE_003]]
-version: "3.0"
+- SCENE_001
+- SCENE_002
+- SCENE_003
+version: '4.3'
+aliases:
+- CHAR_001_REN
 ---
 
 # Ren

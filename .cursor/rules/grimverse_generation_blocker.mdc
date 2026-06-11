@@ -1,0 +1,19 @@
+---
+description: Hard-block generation when canon, state, or assets are missing.
+globs: 01_NODES/**/*, 02_PRODUCTION/**/*, 03_SYSTEM/**/*
+---
+
+# Grimverse Generation Blocker
+
+Stop generation if any of these are true:
+- the shot does not resolve to a scene
+- the scene does not resolve to an episode
+- the shot references a character without an active state node
+- the shot is marked complete but image_source or video_source is missing
+- a source path is provided but the file does not exist in the vault
+
+## Rule
+Fail closed. Report the smallest safe fix. Do not guess canon. Do not auto-repair without an explicit request.
+
+## Positive fallback
+If a required file is missing, tell the user exactly which node to open and what field to correct.

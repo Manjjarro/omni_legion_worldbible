@@ -2,7 +2,8 @@
 type: shot
 id: SHOT_005
 series: Grimverse
-scene: [[SCENE_002]]
+scene:
+- SCENE_002
 shot_number: 5
 duration_seconds: 6
 fps: 24
@@ -12,12 +13,14 @@ composition: Ren foreground, threat background
 status: Planned
 priority: 5
 characters:
-  - [[CHAR_001_REN]]
-  - [[CHAR_002_SERAPH]]
-image_source: ""
-video_source: ""
+- CHAR_001_REN
+- CHAR_002_SERAPH
+image_source: ''
+video_source: ''
 motion_strength: 0.68
-version: "3.0"
+version: '4.3'
+aliases:
+- SHOT_005
 ---
 
 # Shot 005

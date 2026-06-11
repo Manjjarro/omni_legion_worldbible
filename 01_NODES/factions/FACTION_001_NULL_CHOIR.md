@@ -1,13 +1,15 @@
 ---
 type: faction
 id: FACTION_001
-version: "3.0"
+version: '4.3'
 series: Grimverse
 name: Null Choir
 leader: Seraph
 alignment: hostile
 region: Sector 7
 motif: fractured halo / black glass
+aliases:
+- FACTION_001
 ---
 
 # Null Choir

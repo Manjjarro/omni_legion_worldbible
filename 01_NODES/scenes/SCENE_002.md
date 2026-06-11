@@ -15,14 +15,17 @@ emotion: pressure and controlled aggression
 story_function: escalation
 visual_anchor: collapsed maintenance corridor, sparking cable shadows, drifting ash
 characters:
-  - [[CHAR_001_REN]]
-  - [[CHAR_002_SERAPH]]
+- CHAR_001_REN
+- CHAR_002_SERAPH
 shots:
-  - [[SHOT_004]]
-  - [[SHOT_005]]
+- SHOT_004
+- SHOT_005
 continuity_score: 0
-active_event: [[EVENT_001_FIRST_PULSE_STRIKE]]
-version: "3.0"
+active_event:
+- EVENT_001_FIRST_PULSE_STRIKE
+version: '4.3'
+aliases:
+- SCENE_002
 ---
 
 # Scene 002 — Ash in the Wiring

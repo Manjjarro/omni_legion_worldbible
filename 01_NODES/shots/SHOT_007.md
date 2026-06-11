@@ -2,7 +2,8 @@
 type: shot
 id: SHOT_007
 series: Grimverse
-scene: [[SCENE_003]]
+scene:
+- SCENE_003
 shot_number: 7
 duration_seconds: 8
 fps: 24
@@ -12,11 +13,13 @@ composition: victory with consequence
 status: Planned
 priority: 7
 characters:
-  - [[CHAR_001_REN]]
-image_source: ""
-video_source: ""
+- CHAR_001_REN
+image_source: ''
+video_source: ''
 motion_strength: 0.78
-version: "3.0"
+version: '4.3'
+aliases:
+- SHOT_007
 ---
 
 # Shot 007

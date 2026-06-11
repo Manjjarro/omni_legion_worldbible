@@ -1,94 +1,450 @@
-[
-  "00_INPUT/REFERENCES/README.md",
-  "00_INPUT/SCRIPT_DRAFTS/README.md",
-  "01_NODES/arcs/ARC_001_GENESIS_PULSE.md",
-  "01_NODES/arcs/ARC_002_SHATTERED_THRONE.md",
-  "01_NODES/arcs/README.md",
-  "01_NODES/characters/CHAR_001_REN.md",
-  "01_NODES/characters/CHAR_002_SERAPH.md",
-  "01_NODES/episodes/EP_001_FIRST_PULSE.md",
-  "01_NODES/episodes/EP_002_ASH_CONTRACT.md",
-  "01_NODES/episodes/README.md",
-  "01_NODES/events/EVENT_001_FIRST_PULSE_STRIKE.md",
-  "01_NODES/events/EVENT_TEMPLATE.md",
-  "01_NODES/factions/FACTION_001_NULL_CHOIR.md",
-  "01_NODES/factions/FACTION_002_IRON_VEIL.md",
-  "01_NODES/factions/README.md",
-  "01_NODES/locations/LOC_001_SECTOR_7.md",
-  "01_NODES/locations/LOC_002_BLACK_GLASS_MARKET.md",
-  "01_NODES/locations/README.md",
-  "01_NODES/lore/LORE_001_GENESIS_PULSE.md",
-  "01_NODES/lore/LORE_002_PULSE_SYMPTOMS.md",
-  "01_NODES/lore/README.md",
-  "01_NODES/scenes/SCENE_001.md",
-  "01_NODES/scenes/SCENE_002.md",
-  "01_NODES/scenes/SCENE_003.md",
-  "01_NODES/shots/SHOT_001.md",
-  "01_NODES/shots/SHOT_002.md",
-  "01_NODES/shots/SHOT_003.md",
-  "01_NODES/shots/SHOT_004.md",
-  "01_NODES/shots/SHOT_005.md",
-  "01_NODES/shots/SHOT_006.md",
-  "01_NODES/shots/SHOT_007.md",
-  "01_NODES/state/CHARACTER_STATE_TEMPLATE.md",
-  "01_NODES/state/STATE_001_REN_POST_EP001.md",
-  "02_PRODUCTION/generated_images/2026-06-10_SHOT_001_run_001.md",
-  "02_PRODUCTION/generated_images/2026-06-10_SHOT_002_run_001.md",
-  "02_PRODUCTION/generated_images/README.md",
-  "02_PRODUCTION/generated_video/README.md",
-  "02_PRODUCTION/packages/README.md",
-  "02_PRODUCTION/prompts/README.md",
-  "02_PRODUCTION/review_logs/README.md",
-  "02_PRODUCTION/review_logs/REVIEW_2026_06_10_SHOT_001.md",
-  "02_PRODUCTION/run_logs/README.md",
-  "03_SYSTEM/ANTI_BLEED_PROTOCOL.md",
-  "03_SYSTEM/ARC_STATE_LOCK_ENGINE.md",
-  "03_SYSTEM/BRAND_GUIDE.md",
-  "03_SYSTEM/CONTINUITY_CHECKLIST.md",
-  "03_SYSTEM/CURSOR_HYBRID_GUIDE.md",
-  "03_SYSTEM/CURSOR_RUNTIME.md",
-  "03_SYSTEM/DASHBOARD.md",
-  "03_SYSTEM/DELTA_VISUALIZER.md",
-  "03_SYSTEM/EPISODE_OPERATING_PROCEDURE.md",
-  "03_SYSTEM/EVENT_SYSTEM.md",
-  "03_SYSTEM/EXPORT_PIPELINE.md",
-  "03_SYSTEM/HEALTH_CHECK.md",
-  "03_SYSTEM/PRODUCTION_GUIDE.md",
-  "03_SYSTEM/PROFESSIONAL_EVALUATION.md",
-  "03_SYSTEM/PROMPT_ENGINE.md",
-  "03_SYSTEM/SCENE_EXPANSION_ENGINE.md",
-  "03_SYSTEM/SERIES_PIPELINE.md",
-  "03_SYSTEM/SERIES_RULES.md",
-  "03_SYSTEM/SERIES_STRATEGY.md",
-  "03_SYSTEM/SHOT_PACKAGE_SPEC.md",
-  "03_SYSTEM/STATUS_ROLLUP.md",
-  "03_SYSTEM/STYLE_GUIDE.md",
-  "03_SYSTEM/VIDEO_ENGINE.md",
-  "03_SYSTEM/WORLD_STATE.md",
-  "04_EXPORT/README.md",
-  "04_EXPORT/final_compilation/README.md",
-  "04_EXPORT/image_final/README.md",
-  "04_EXPORT/scenes/README.md",
-  "04_EXPORT/scenes/SCENE_001/README.md",
-  "04_EXPORT/video_final/README.md",
-  "04_EXPORT/winners/README.md",
-  "MANIFEST.json",
-  "README.md",
-  "SETUP.md",
-  "Templates/ARC_TEMPLATE.md",
-  "Templates/CHARACTER_STATE_TEMPLATER.md",
-  "Templates/CHARACTER_TEMPLATE.md",
-  "Templates/COMMIT_WINNER_TEMPLATER.md",
-  "Templates/EPISODE_TEMPLATE.md",
-  "Templates/FACTION_TEMPLATE.md",
-  "Templates/IMAGE_RUN_TEMPLATE.md",
-  "Templates/LOCATION_TEMPLATE.md",
-  "Templates/LORE_TEMPLATE.md",
-  "Templates/NEW_SCENE_TEMPLATER.md",
-  "Templates/NEW_SHOT_TEMPLATER.md",
-  "Templates/REVIEW_TEMPLATE.md",
-  "Templates/REVIEW_TEMPLATER.md",
-  "Templates/SCENE_TEMPLATE.md",
-  "Templates/SHOT_TEMPLATE.md",
-  "Templates/VIDEO_RUN_TEMPLATE.md"
-]
+{
+  "manifest_version": "4.3",
+  "integrity": "sha256",
+  "files": [
+    {
+      "path": "MANIFEST.json",
+      "sha256": "b527adc11041e57523f5df1ce7361c529c0f09e19ffab4466e24eac6d97ef788"
+    },
+    {
+      "path": ".cursor/rules/grimverse_asset_audit.mdc",
+      "sha256": "0d27186640126d36086ec20316bf7fb3b0bc75519ace964bc43246253f1f72b5"
+    },
+    {
+      "path": ".cursor/rules/grimverse_canon.mdc",
+      "sha256": "8ae3ab2bdd193ac2708aa7f6b025da8a90e1a193b3da36777761188e09a0e182"
+    },
+    {
+      "path": ".cursor/rules/grimverse_episode_packager.mdc",
+      "sha256": "d5a5dc306e01e74b874f88507a9fd39128ccc11733b927c46a5a1dec89aad843"
+    },
+    {
+      "path": ".cursor/rules/grimverse_generation_blocker.mdc",
+      "sha256": "06429c404c43f8d47aae1354c82dcdf03dc795643e4320d6e329f5ca2c9090d7"
+    },
+    {
+      "path": ".cursor/rules/grimverse_shot_compiler.mdc",
+      "sha256": "aa4a6598aa127ebd6870b71454aa100663bc1fb80a85f708d2cc5d78190e6580"
+    },
+    {
+      "path": ".cursor/rules/grimverse_state_propagation.mdc",
+      "sha256": "35d60a72620ec9b7eeae531f79ba20cec9f955f7136433541bb57a3d1033ef43"
+    },
+    {
+      "path": ".cursor/rules/grimverse_thumbnail.mdc",
+      "sha256": "7950a75b5891a30f03a273b5ff08a01c43de6912447a87cb8e5ae14d047c7d5d"
+    },
+    {
+      "path": ".cursor/rules/grimverse_validation.mdc",
+      "sha256": "08d425eca7235e277e3a5ec91a3e56cb62925e5033fb2ba4a3dfe9b98c1b6b0b"
+    },
+    {
+      "path": "00_INPUT/REFERENCES/README.md",
+      "sha256": "f47049c1f34d0f2c769ed1ee5cc343640b8598bf5545b1a62af0f57818315817"
+    },
+    {
+      "path": "00_INPUT/SCRIPT_DRAFTS/README.md",
+      "sha256": "2959570986f863a7bf2fd2f592f946da7c6108013cddfe1390f2ae350c475da7"
+    },
+    {
+      "path": "01_NODES/arcs/ARC_001_GENESIS_PULSE.md",
+      "sha256": "10be71ba0b176fa2dd1e983ab2f88bfd0eacbb0a55fbb226c8a7c5ebf404fa21"
+    },
+    {
+      "path": "01_NODES/arcs/ARC_002_SHATTERED_THRONE.md",
+      "sha256": "6b03df194cddde4ee954a11ff11fe050e9af45915755216373827d15fd50844d"
+    },
+    {
+      "path": "01_NODES/arcs/README.md",
+      "sha256": "f23ea10acae68f774ddea38c752eb53fed1ea10c610f7e65aa5ae16494c60653"
+    },
+    {
+      "path": "01_NODES/characters/CHAR_001_REN.md",
+      "sha256": "935c3ed7209150207b38fcdc6785cab9b8f2b96a51d6f78291ffe52c16a7fff4"
+    },
+    {
+      "path": "01_NODES/characters/CHAR_002_SERAPH.md",
+      "sha256": "296d7364e9d1538479fe5faa8bfe57f6fc7a4686e5e16111a7806efc92b9ea5f"
+    },
+    {
+      "path": "01_NODES/episodes/EP_001_FIRST_PULSE.md",
+      "sha256": "4c4999de6648068ebe81403ad2406742e700c0c57cc27740f8d1982665d5d3a0"
+    },
+    {
+      "path": "01_NODES/episodes/EP_002_ASH_CONTRACT.md",
+      "sha256": "b6bde2bcf1cd8c6ccb7f94b2a687085dcd70f91f77b6d2b44711e865c41ae544"
+    },
+    {
+      "path": "01_NODES/episodes/README.md",
+      "sha256": "d315d301ab1199d9abd1c6b0f56d2cadee49d2b12cbffc7ec1201f77cb5bc0fd"
+    },
+    {
+      "path": "01_NODES/events/EVENT_001_FIRST_PULSE_STRIKE.md",
+      "sha256": "edacb2443c0dc89cc774c47585d7c685605498f93611d7c41ca338e9589c8c1c"
+    },
+    {
+      "path": "01_NODES/events/EVENT_TEMPLATE.md",
+      "sha256": "44c1c0dc4f80bbee7f247d974815580b27ec144c9cfffa623de0414e71a62782"
+    },
+    {
+      "path": "01_NODES/factions/FACTION_001_NULL_CHOIR.md",
+      "sha256": "2bf2f4592c6ebf1dea10be5809d35092fc31595b32d9c21e8774697757402636"
+    },
+    {
+      "path": "01_NODES/factions/FACTION_002_IRON_VEIL.md",
+      "sha256": "05844962c9c26fb0d66421d25d85f0e8b2cb67e10a7b936b73379bd243b8e744"
+    },
+    {
+      "path": "01_NODES/factions/README.md",
+      "sha256": "da857c6c7e44372a09657855661dac3f5fd41dc01297ec4ddb1f9525c2376167"
+    },
+    {
+      "path": "01_NODES/locations/LOC_001_SECTOR_7.md",
+      "sha256": "6e3e456397d206898fcac48952c71c5063343711cc5d37e1e9e4a91847657552"
+    },
+    {
+      "path": "01_NODES/locations/LOC_002_BLACK_GLASS_MARKET.md",
+      "sha256": "b5b32968d39ba04509a60b94f76b188550dcb953dd8ac9c61f7315b554ec4e1b"
+    },
+    {
+      "path": "01_NODES/locations/README.md",
+      "sha256": "3ec926810a685fc6ea5bf198c138fcee2ef892d5bf1c0073e6e9617f8627930a"
+    },
+    {
+      "path": "01_NODES/lore/LORE_001_GENESIS_PULSE.md",
+      "sha256": "f924e32f113168b2102bb1cf13bc8f89cd80635b462451cd56d2cd2fd6746810"
+    },
+    {
+      "path": "01_NODES/lore/LORE_002_PULSE_SYMPTOMS.md",
+      "sha256": "202510ccfa4cf33b948a0a8f1c8a4fce4e213fd399d1509aa100446c46619daf"
+    },
+    {
+      "path": "01_NODES/lore/README.md",
+      "sha256": "1989d4da796f403dc85a492116c840ca0b5ce3ece17d20c03ba0536332ec1145"
+    },
+    {
+      "path": "01_NODES/scenes/SCENE_001.md",
+      "sha256": "f77f9548a668e0a3e7bfe1147202109f7a8e6064408b41f5b4b1f2b19509c18f"
+    },
+    {
+      "path": "01_NODES/scenes/SCENE_002.md",
+      "sha256": "abcb552ee1d7ee6fde94201a4d1c77b1ad4fb543fa3ae218e5dab12418fc7aa4"
+    },
+    {
+      "path": "01_NODES/scenes/SCENE_003.md",
+      "sha256": "8fcaeef52a66a108690dcf068b3a7af7a38446e2b9b9875f520fa4c26f26fa1d"
+    },
+    {
+      "path": "01_NODES/shots/SHOT_001.md",
+      "sha256": "251601015490cde303f67a5bdc023952045cbc041e97d169e2f6a9f33d20648c"
+    },
+    {
+      "path": "01_NODES/shots/SHOT_002.md",
+      "sha256": "1d43d02b8fa127f38d2328e90299ee0c8da17fc8c3b4a7f71c15573927944fae"
+    },
+    {
+      "path": "01_NODES/shots/SHOT_003.md",
+      "sha256": "ccc45389d814d0c5a34ad1651ed35a7400e3e797dbba76ff8911380738d3e02d"
+    },
+    {
+      "path": "01_NODES/shots/SHOT_004.md",
+      "sha256": "fe5942901fc038bdb815d0dc338489fe08928112a36d9ad70fc14e4149fa2f26"
+    },
+    {
+      "path": "01_NODES/shots/SHOT_005.md",
+      "sha256": "2f34191a6187d5150bed254a21c086f7d87d787b6cfaaced8f76cac812bf4e58"
+    },
+    {
+      "path": "01_NODES/shots/SHOT_006.md",
+      "sha256": "a0e562e7998d45f30c32a800b431977c451c274306c2eceff3f28f8b6fab347b"
+    },
+    {
+      "path": "01_NODES/shots/SHOT_007.md",
+      "sha256": "d7f99d47dd13b3b4881ec6d3e634bc6ff2980e1e9e9ca30c5484954902e40ba9"
+    },
+    {
+      "path": "01_NODES/state/CHARACTER_STATE_TEMPLATE.md",
+      "sha256": "03cd0e6723f2f70147487d1c3792d6801567aaf0e93e26b7f33f85b8aa1b1583"
+    },
+    {
+      "path": "01_NODES/state/STATE_001_REN_POST_EP001.md",
+      "sha256": "fc64385f19422049fc2920de4ee2edba9252bb64d4dd5fe79a1e91c87da8ce1e"
+    },
+    {
+      "path": "01_NODES/state/STATE_002_SERAPH.md",
+      "sha256": "86d36d4096af306e3c730f3945cd06305a226c3aeedc27520fabdd0e65bb0eb0"
+    },
+    {
+      "path": "02_PRODUCTION/generated_images/2026-06-10_SHOT_001_run_001.md",
+      "sha256": "f381a213af56a4caf79f46d2a09c3d92267c21dedeabe63c8d2dbd53ecf1a77e"
+    },
+    {
+      "path": "02_PRODUCTION/generated_images/2026-06-10_SHOT_002_run_001.md",
+      "sha256": "c1f2adf27a9a1750ca1d13aa90a0a762d74e27b7d91765b7c75df856d425c346"
+    },
+    {
+      "path": "02_PRODUCTION/generated_images/README.md",
+      "sha256": "b5dec80f7dec970db05d57727d107bf8cb0d90f7a2a636449a6c888234109df9"
+    },
+    {
+      "path": "02_PRODUCTION/generated_video/README.md",
+      "sha256": "fdf250a10ab1293df846f718b733fe409d4f441a76c3f7733016c804144e5e9f"
+    },
+    {
+      "path": "02_PRODUCTION/packages/README.md",
+      "sha256": "e2051f6ff8cd23f5c9a0c7f2e7b29bd6931a3beab1ffb79d16501a96a12e8d8a"
+    },
+    {
+      "path": "02_PRODUCTION/prompts/README.md",
+      "sha256": "95efd6a76a1a31c60b3f58f2568d8941de1589140a8759c7e4ef877c341c069b"
+    },
+    {
+      "path": "02_PRODUCTION/review_logs/README.md",
+      "sha256": "27e74e27960870ac1c8930c630dbeba3ca0d8892c0aa645cecb82b9b42fa4bd3"
+    },
+    {
+      "path": "02_PRODUCTION/review_logs/REVIEW_2026_06_10_SHOT_001.md",
+      "sha256": "2f49cb4f2702f86bf97ce89ab1354befeda57c0e1744fe087f6058a9fbdd2afe"
+    },
+    {
+      "path": "02_PRODUCTION/run_logs/README.md",
+      "sha256": "cbb46a9826ca95cac35e8dede59938e1aacd7eb87d8f585f95bfdefea00d1886"
+    },
+    {
+      "path": "03_SYSTEM/ANTI_BLEED_PROTOCOL.md",
+      "sha256": "83ebf55e99b51b1896d0696e46c04bd24d8e33d116b19c64169c1427d734a710"
+    },
+    {
+      "path": "03_SYSTEM/ARC_STATE_LOCK_ENGINE.md",
+      "sha256": "fc0922c6b5214507c5170ea06bed5221f41f5f7b0574ea2dba3ab036b26adf23"
+    },
+    {
+      "path": "03_SYSTEM/ASSET_AUDIT.md",
+      "sha256": "d0d1849e6f1108f8a68c81a250179adc402ff01fa0246f0327a4c5853bd1fc27"
+    },
+    {
+      "path": "03_SYSTEM/BRAND_GUIDE.md",
+      "sha256": "9162a4fb62a09900d665aea17c9a77c6e43613c08b951345c08936760a40a62d"
+    },
+    {
+      "path": "03_SYSTEM/CONTINUITY_CHECKLIST.md",
+      "sha256": "61530d5508ab62568e2fe25c1cd77816b602183f725d76bd5332f1ff4304a337"
+    },
+    {
+      "path": "03_SYSTEM/CURSOR_HYBRID_GUIDE.md",
+      "sha256": "4c4c2a867f6425fd33bcf985cf50ce7588734fb8ccee940ae216c4cd53628ab8"
+    },
+    {
+      "path": "03_SYSTEM/CURSOR_RUNTIME.md",
+      "sha256": "89edadbd2f76845d59bab87e1b8de4197911264f6769edc292771cec6980111f"
+    },
+    {
+      "path": "03_SYSTEM/DASHBOARD.md",
+      "sha256": "8fb10a69c03a95be0954adffb97b2db40b1a9ea79766c303ca076aae798476cc"
+    },
+    {
+      "path": "03_SYSTEM/DELTA_VISUALIZER.md",
+      "sha256": "62f078e527202767178f7c8b1580f3af234aad37ca4d1b140b31cdf8a0e2e113"
+    },
+    {
+      "path": "03_SYSTEM/EPISODE_OPERATING_PROCEDURE.md",
+      "sha256": "df40430d58d6e3ddccf20881b2dc90db804f942898e3a3f3b24860d627e026ba"
+    },
+    {
+      "path": "03_SYSTEM/EVENT_SYSTEM.md",
+      "sha256": "015afb66b4217a1b6cf7fd48144d7b5fb2291fde8d292ab00f073b61da370dd6"
+    },
+    {
+      "path": "03_SYSTEM/EXPORT_PIPELINE.md",
+      "sha256": "910bf711a55d9f8faface09839893595ef04d98149867d98e5abdd7f3cf447f7"
+    },
+    {
+      "path": "03_SYSTEM/HEALTH_CHECK.md",
+      "sha256": "f5301ce07f50f8782a54eb36e4e9c988c96b4e5c945747392e6b43419dcb213a"
+    },
+    {
+      "path": "03_SYSTEM/PRODUCTION_GUIDE.md",
+      "sha256": "99bc2295f2699cedcde82bd41f4efe31903dfd0c39dd8051ab73a4b97eb39c9a"
+    },
+    {
+      "path": "03_SYSTEM/PRODUCTION_REVIEW_AND_FIX_REPORT.md",
+      "sha256": "1275c209b01239f4973ae47267f843455c5fe596b2ca39e43e32e8092a731fb5"
+    },
+    {
+      "path": "03_SYSTEM/PROFESSIONAL_EVALUATION.md",
+      "sha256": "2951547860d08fc4c1ba3d54dd0a780f97d41874c5b5070cc76445b6feacce86"
+    },
+    {
+      "path": "03_SYSTEM/PROMPT_ENGINE.md",
+      "sha256": "47e8f9b2298e0b4535a6d5d8668f8fbe56482beedea26629f3cacfe6df7ff5d3"
+    },
+    {
+      "path": "03_SYSTEM/SCENE_EXPANSION_ENGINE.md",
+      "sha256": "e1db29d7c5ea3bfe0193d30d608fc37ff2501615984736462a06b8f1d8380f39"
+    },
+    {
+      "path": "03_SYSTEM/SERIES_PIPELINE.md",
+      "sha256": "d6b18332cf527233588d16d8a904eadd01f2f1b6ab43fb8273a7911b2f60740e"
+    },
+    {
+      "path": "03_SYSTEM/SERIES_RULES.md",
+      "sha256": "2af677b6eab351d4064797c206a21761c3019ab10c5b749c79f1e1c41efefc6a"
+    },
+    {
+      "path": "03_SYSTEM/SERIES_STRATEGY.md",
+      "sha256": "755796f7aeac684c83ee10fa991d5b8c177cf38519fddcc8c98f4c2c3235e7e0"
+    },
+    {
+      "path": "03_SYSTEM/SHOT_PACKAGE_SPEC.md",
+      "sha256": "893d5b4c678a1e4df84db92ac528a48a303e743c14d4d97b314edc638deb817d"
+    },
+    {
+      "path": "03_SYSTEM/STATUS_ROLLUP.md",
+      "sha256": "3fd9d266954d1c4d8ecf8b837f4e1cdc8d8058a9de9926bb182e4811afb05ac2"
+    },
+    {
+      "path": "03_SYSTEM/STATUS_SCHEMA.md",
+      "sha256": "97a18622477de8f79d3a4e549b157f4209150165c4b801b06cff79d6904d1679"
+    },
+    {
+      "path": "03_SYSTEM/STYLE_GUIDE.md",
+      "sha256": "bc3bfe5ba8794a6874aa19d01950d492e8ed28032df5f73fcb343c07471e9bf7"
+    },
+    {
+      "path": "03_SYSTEM/VIDEO_ENGINE.md",
+      "sha256": "263e8ef2c2d2aa0d99d694c28bdd0c753ac405cb96626d8ce419a8055b703b59"
+    },
+    {
+      "path": "03_SYSTEM/WORLD_STATE.md",
+      "sha256": "17f05f9ef456c25f9665fd5e88a8868b725fe17f366273736685ea7e25c01060"
+    },
+    {
+      "path": "03_SYSTEM/schema/frontmatter_contract.md",
+      "sha256": "f5b4ee713e4686b0de28852207f28db8de08fa6ef20407e026a4ff2c3a4fff6a"
+    },
+    {
+      "path": "03_SYSTEM/scripts/generate_manifest.js",
+      "sha256": "eb2231aae640d7a23c95588c87ab40d21925c6bdede83fc1312b5fa92f9a4c4e"
+    },
+    {
+      "path": "03_SYSTEM/scripts/health_check.js",
+      "sha256": "adf44efff816377dbaed0d595ab0181163edaa6c862f96f8236e47109263bba0"
+    },
+    {
+      "path": "03_SYSTEM/scripts/verify_manifest.js",
+      "sha256": "1a4ebf2f4a72c319c67363232f0f9ceca9b2a73fde1e20971ab47fc24d3a37bd"
+    },
+    {
+      "path": "03_SYSTEM/shared/ref_resolver.js",
+      "sha256": "445238892f7c8987091b2a4bee1831ca9d934d7c023f34fda4143f69c83d11b8"
+    },
+    {
+      "path": "03_SYSTEM/tests/ref_resolver.test.js",
+      "sha256": "c3198abaae0f530eb5f14b9d6c6978aebc4e1bd0163dc4643892cd32385012f5"
+    },
+    {
+      "path": "03_SYSTEM/validate_vault.py",
+      "sha256": "b4331b55df6c22e48d1d48382db07082fea305bdeca9c19f24dbb0bb099262a4"
+    },
+    {
+      "path": "04_EXPORT/README.md",
+      "sha256": "ffe9860cd6d91b8d4cb67a98680e35f6c083f26a72b67242c28009520ff2f84a"
+    },
+    {
+      "path": "04_EXPORT/final_compilation/README.md",
+      "sha256": "f4f606fcf9f3c09865195ff66146626c3116712fc6cdf9fac4f6ce7d76c29738"
+    },
+    {
+      "path": "04_EXPORT/image_final/README.md",
+      "sha256": "697c780c8d0bf1d22f7e4c044f57b8204709d43b9ef64f777e9e93143e68d7bf"
+    },
+    {
+      "path": "04_EXPORT/scenes/README.md",
+      "sha256": "a139e6151202f1d3d60f44305854219e8a1fb3dd355cf8fe7bfcc99b7e26af5e"
+    },
+    {
+      "path": "04_EXPORT/scenes/SCENE_001/README.md",
+      "sha256": "4c1b1ca3e60425214db7613f98617bdedb0117ac82d9ed91c521b860bf19b7fa"
+    },
+    {
+      "path": "04_EXPORT/video_final/README.md",
+      "sha256": "119e5052570e58c4fe70d14c692fe8efabdd942fb0c6c03ea40ade9cad7bb31f"
+    },
+    {
+      "path": "04_EXPORT/winners/README.md",
+      "sha256": "efc29b72ff0205a2bc38e2a7aab76d7b619f7225892637cd3e1ae0224f746014"
+    },
+    {
+      "path": "README.md",
+      "sha256": "da9ffe24d0e74d4e4575b8606105cbd149aa725e1694b257ee52c1c0bb28fda0"
+    },
+    {
+      "path": "SETUP.md",
+      "sha256": "f88b701c0c6d12a04982f3c8065730a221491962559c6d22ee532566e718bd5e"
+    },
+    {
+      "path": "Templates/ARC_TEMPLATE.md",
+      "sha256": "0507eb50e6b8d1d7476ca300583408c0a0a97228cc97afeb7b9ab45cad63d43c"
+    },
+    {
+      "path": "Templates/CHARACTER_STATE_TEMPLATER.md",
+      "sha256": "ec364dafeddb5c838df186d23112630ab99f0399574f7c73aa773583230596b3"
+    },
+    {
+      "path": "Templates/CHARACTER_TEMPLATE.md",
+      "sha256": "2ead6fb933841bcc3901783a524b95652a5816e4b92226ce7efdaa5f97f4ea87"
+    },
+    {
+      "path": "Templates/COMMIT_WINNER_TEMPLATER.md",
+      "sha256": "a5716d9091439c79c1eacf245a1a57c8b66a2ba8e467177e1453d51287a1d080"
+    },
+    {
+      "path": "Templates/EPISODE_TEMPLATE.md",
+      "sha256": "b6e9f43e3811f02e9151b8a141d03c204f54298979b538dadefd273c5fa8742e"
+    },
+    {
+      "path": "Templates/FACTION_TEMPLATE.md",
+      "sha256": "1ce291442e776731857d7c6c7c8457232a3edd4f2f080bab2258a0fcacc97865"
+    },
+    {
+      "path": "Templates/IMAGE_RUN_TEMPLATE.md",
+      "sha256": "47f39b0f19458dd03402a463305ccf4485459fe9eb5bc2beed15bda9b0ce2b46"
+    },
+    {
+      "path": "Templates/LOCATION_TEMPLATE.md",
+      "sha256": "102915b90533aa651285fcb0fd3f9ff5979ed40e145bae7f041b7786810c5b83"
+    },
+    {
+      "path": "Templates/LORE_TEMPLATE.md",
+      "sha256": "9e23477c19c6b6fd9eac05ddd8bb660d747406cf1742efe6fa713e7920e776d5"
+    },
+    {
+      "path": "Templates/NEW_SCENE_TEMPLATER.md",
+      "sha256": "a979714bb623689a142a88942d9e8bbd91cffa20662050a71cd05689395a0132"
+    },
+    {
+      "path": "Templates/NEW_SHOT_TEMPLATER.md",
+      "sha256": "b0011c28cbfd9af4cbb96c97d70f9d26806d41218b30cf086a286f40ced147f6"
+    },
+    {
+      "path": "Templates/REVIEW_TEMPLATE.md",
+      "sha256": "a1c0b34cdba60498b9971127b973e30a5738a7863598160ecf58d2c615dc092c"
+    },
+    {
+      "path": "Templates/REVIEW_TEMPLATER.md",
+      "sha256": "60083a2e59cc2fd271db1da938c8a94faa2504c467ed6598085a6aebc0c05a48"
+    },
+    {
+      "path": "Templates/SCENE_TEMPLATE.md",
+      "sha256": "d58531a216dddd01bba69a9afdc93868a2d3767bfea6efbc2c7ea6ab9d353cbd"
+    },
+    {
+      "path": "Templates/SHOT_TEMPLATE.md",
+      "sha256": "279c05cac347140542aec18b2a9568425166c89b783cc8d968569da1300aa226"
+    },
+    {
+      "path": "Templates/VIDEO_RUN_TEMPLATE.md",
+      "sha256": "6320df389a5349f42589f26f0817a8bbd4c6ef169038b509a862916d3c66cafd"
+    }
+  ]
+}

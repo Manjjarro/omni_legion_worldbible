@@ -1,9 +1,10 @@
 ---
 type: shot
 id: SHOT_002
-version: "3.0"
+version: '4.3'
 series: Grimverse
-scene: [[SCENE_001]]
+scene:
+- SCENE_001
 shot_number: 2
 duration_seconds: 5
 fps: 24
@@ -13,11 +14,13 @@ composition: profile emphasis with negative space behind him
 status: Planned
 priority: 2
 characters:
-  - [[CHAR_001_REN]]
-  - [[CHAR_002_SERAPH]]
-image_source: ""
-video_source: ""
+- CHAR_001_REN
+- CHAR_002_SERAPH
+image_source: ''
+video_source: ''
 motion_strength: 0.6
+aliases:
+- SHOT_002
 ---
 
 # Shot 002

@@ -1,7 +1,7 @@
 ---
 type: system
 id: CURSOR_RUNTIME
-version: "3.0"
+version: '4.3'
 ---
 
 # Cursor Runtime Notes
@@ -26,3 +26,7 @@ Use Cursor when you need to turn canon into production output.
 - Obsidian stores truth
 - Cursor stores execution output
 - Production logs store the generated assets
+
+
+## Node resolution rule
+Resolve nodes by frontmatter `id` first, then filename stem, then aliases. Do not assume the linked text equals the file name.

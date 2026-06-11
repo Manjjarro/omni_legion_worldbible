@@ -2,14 +2,19 @@
 type: system
 id: STYLE_GUIDE
 style_name: Grimverse Cell-Noir
-positive_style: "cinematic 2D cell-shaded dark anime, bold ink contours, high-contrast chiaroscuro lighting, controlled monochrome palette with restrained crimson accents, crisp silhouettes, atmospheric rain or ash, dramatic composition, keyframe finish"
-negative_prompt: "3D render, photorealistic skin, soft pastel palette, comedy tone, neon overload, low contrast, blurry, motion smear, lens flare, bokeh, watermark, inconsistent anatomy, mismatched eyes, random wardrobe changes, electronics glowing brightly, oversaturated colors"
+positive_style: cinematic 2D cell-shaded dark anime, bold ink contours, high-contrast
+  chiaroscuro lighting, controlled monochrome palette with restrained crimson accents,
+  crisp silhouettes, atmospheric rain or ash, dramatic composition, keyframe finish
+negative_prompt: 3D render, photorealistic skin, soft pastel palette, comedy tone,
+  neon overload, low contrast, blurry, motion smear, lens flare, bokeh, watermark,
+  inconsistent anatomy, mismatched eyes, random wardrobe changes, electronics glowing
+  brightly, oversaturated colors
 palette:
   primary: slate black
   secondary: gunmetal gray
   accent: crimson
   neutral: fog white
-version: "3.0"
+version: '4.3'
 ---
 
 # Style Guide

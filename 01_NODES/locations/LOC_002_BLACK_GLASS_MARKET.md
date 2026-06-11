@@ -1,12 +1,14 @@
 ---
 type: location
 id: LOC_002
-version: "3.0"
+version: '4.3'
 series: Grimverse
 name: Black Glass Market
 region: Iron District
 danger_level: extreme
 visual_anchor: broken neon signage, tarps, wet steel, hidden weapons, ash-laced crowds
+aliases:
+- LOC_002
 ---
 
 # Black Glass Market

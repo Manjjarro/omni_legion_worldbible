@@ -1,0 +1,22 @@
+---
+description: Propagate canon deltas from winners and events into character state.
+globs: 01_NODES/events/**/*, 01_NODES/state/**/*, 02_PRODUCTION/**/*, 03_SYSTEM/**/*
+---
+
+# Grimverse State Propagation Rule
+
+When a shot or event becomes canon:
+- record the new delta
+- update scarring_log
+- update forbidden_drift
+- update physical_state / mental_state if changed
+- keep the previous baseline visible
+- create a state delta note if one does not yet exist
+
+## Rule
+Never mutate state without an explicit canon trigger.
+
+## Required output when a winner is promoted
+- the delta summary
+- the affected state node
+- the next scene impact

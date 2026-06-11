@@ -1,29 +1,23 @@
 ---
 type: character_state
 id: STATE_<%tp.date.now("YYYYMMDDHHmm")%>
-character: 
-current_arc: 
-episode_range: 
-last_event: 
-version: "3.0"
-
+character: null
+current_arc: null
+episode_range: null
+last_event: null
+version: '4.3'
 physical_state:
-  - ""
-
+- ''
 mental_state:
-  - ""
-
+- ''
 power_state:
-  - ""
-
+- ''
 scarring_log:
-  - ""
-
+- ''
 forbidden_drift:
-  - ""
-
+- ''
 delta_from_baseline:
-  - ""
+- ''
 ---
 
 # Character State — <% tp.file.title %>

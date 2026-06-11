@@ -1,12 +1,14 @@
 ---
 type: location
 id: LOC_001
-version: "3.0"
+version: '4.3'
 series: Grimverse
 name: Sector 7
 region: Iron District
 danger_level: high
 visual_anchor: industrial rain alley, rusted awnings, fog, broken signage, wet concrete
+aliases:
+- LOC_001
 ---
 
 # Sector 7

@@ -1,12 +1,12 @@
 ---
 type: location
 id: LOC_XXX
-version: "3.0"
+version: '4.3'
 series: Grimverse
 name: Location Name
-region: ""
+region: ''
 danger_level: high
-visual_anchor: ""
+visual_anchor: ''
 ---
 
 # Location: Location Name

@@ -1,9 +1,10 @@
 ---
 type: shot
 id: SHOT_003
-version: "3.0"
+version: '4.3'
 series: Grimverse
-scene: [[SCENE_001]]
+scene:
+- SCENE_001
 shot_number: 3
 duration_seconds: 7
 fps: 24
@@ -13,10 +14,12 @@ composition: hidden antagonist reveal from the mist
 status: Planned
 priority: 3
 characters:
-  - [[CHAR_002_SERAPH]]
-image_source: ""
-video_source: ""
+- CHAR_002_SERAPH
+image_source: ''
+video_source: ''
 motion_strength: 0.7
+aliases:
+- SHOT_003
 ---
 
 # Shot 003

@@ -7,27 +7,29 @@ tier: 2
 status: Antagonist
 weapon: Pulse blade
 identity_anchors:
-  - pale ash-blond hair
-  - amber eyes
-  - fractured halo tattoo
+- pale ash-blond hair
+- amber eyes
+- fractured halo tattoo
 psychological_anchors:
-  - visionary
-  - controlling
-  - calm under violence
+- visionary
+- controlling
+- calm under violence
 combat_anchors:
-  - tactical strategist
-  - mid-range blade combat
-  - command pressure
+- tactical strategist
+- mid-range blade combat
+- command pressure
 wardrobe_anchors:
-  - layered black coat
-  - ceremonial armor fragments
+- layered black coat
+- ceremonial armor fragments
 forbidden_changes:
-  - eye color
-  - halo tattoo placement
+- eye color
+- halo tattoo placement
 linked_scenes:
-  - [[SCENE_002]]
-  - [[SCENE_003]]
-version: "3.0"
+- SCENE_002
+- SCENE_003
+version: '4.3'
+aliases:
+- CHAR_002_SERAPH
 ---
 
 # Seraph

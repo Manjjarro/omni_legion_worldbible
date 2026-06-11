@@ -1,0 +1,37 @@
+---
+description: Compile a shot into generator-ready assets.
+globs: 01_NODES/shots/**/*, 01_NODES/scenes/**/*, 01_NODES/characters/**/*, 01_NODES/state/**/*, 01_NODES/events/**/*
+---
+
+# Grimverse Shot Compiler
+
+When asked to compile a shot, read:
+- shot
+- parent scene
+- linked characters
+- character state nodes
+- active events
+- style guide
+
+## Hard gate
+If the shot, scene, active state, or event context is unresolved, stop and report the missing node instead of compiling a prompt.
+
+## Output exactly these sections
+1. Final Image Prompt
+2. Final Video Prompt
+3. Thumbnail Prompt
+4. Continuity Checklist
+5. Failure Log Template
+
+## Prompt rules
+- Keep the final generator prompt visual and compact.
+- Keep world/history/state internal unless a visual consequence is needed.
+- Use the shot's camera and motion fields.
+- Use only the active canon state for referenced characters.
+- Translate psychological anchors into visual behavior, posture, and expression rather than abstract lore text.
+
+## Node resolution
+When the shot references an Arc or Episode by ID, resolve by `id` field first. Use aliases only as a fallback for Obsidian link convenience.
+
+## Prompt budget
+Prefer a prompt that can be copied directly into a model without editorial cleanup. If the output starts to read like documentation, compress it.
