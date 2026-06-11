@@ -1,24 +1,54 @@
 ---
 type: character
 id: CHAR_001_REN
+series: Grimverse
 name: Ren
 tier: 1
 status: Core
-stability: 1.0
-success: 1
-failures: 0
+weapon: Tactical combat knife
+identity_anchors:
+  - messy silver undercut hair
+  - solid crimson eyes
+  - dark slate-grey tactical trench coat
+  - black tactical underlayers
+psychological_anchors:
+  - disciplined
+  - ruthless when cornered
+  - emotionally contained
+  - protective of the weak despite denial
+combat_anchors:
+  - knife specialist
+  - close-range ambush fighter
+  - low-profile movement
+wardrobe_anchors:
+  - trench coat
+  - matte black gloves
+forbidden_changes:
+  - eye color
+  - hair color
+  - core weapon
+linked_scenes:
+  - [[SCENE_001]]
+  - [[SCENE_002]]
+  - [[SCENE_003]]
+version: "3.0"
 ---
 
-## 👤 Character Profile: Ren
+# Ren
 
-### 🧬 Core Visual Descriptors
-* **Identity Anchors:** solo focus character, messy silver undercut hair, solid crimson eyes.
-* **Wardrobe Elements:** dark slate-grey high-collar tactical trench coat, form-fitting black tactical gear beneath coat.
-* **Aesthetic Render Frame:** sharp line art detailing, high tonal contrast, zero facial symmetry distortion.
+## Visual Identity
+Ren is the series anchor. His look must remain stable across all approved generations.
 
-### 🛠️ Equipment & Upgrades
-* **Weapons:** Tactical combat knife (matte black finish, geometric serrated spine).
-* **Progression State:** Tier 1 base human baseline. No external biological mutations active yet.
+## Psychological Profile
+He is an antihero who wins through control, precision, and willpower, not nobility.
 
-### 🔗 Linked Scenes
-* [[SCENE_001]]
+## Combat Profile
+Close-range ambusher, fast decision maker, knife centered, prefers efficient exits.
+
+## Progression
+He gains power through sacrifice, not upgrades.
+
+## Linked Scenes
+- [[SCENE_001]]
+- [[SCENE_002]]
+- [[SCENE_003]]

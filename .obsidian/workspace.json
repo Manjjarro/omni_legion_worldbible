@@ -6,54 +6,41 @@
       {
         "id": "ceb35c14b8320f35",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 65.51724137931035,
         "children": [
           {
             "id": "be3be4efe8a93d14",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "03_SYSTEM/dashboard.md",
-                "mode": "source",
-                "source": false
+                "file": "productionboard.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "dashboard"
+              "icon": "lucide-layout-dashboard",
+              "title": "productionboard"
             }
-          },
-          {
-            "id": "aa50f213ba7a68df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_SYSTEM/PROMPT_ENGINE.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PROMPT_ENGINE"
-            },
-            "group": "82eeb815e7cdde89"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "542559f557ddef03",
+        "id": "0e546d873e42c064",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 34.48275862068966,
         "children": [
           {
-            "id": "5af1beaa04d18900",
+            "id": "741246b22cb2c361",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "03_SYSTEM/PROMPT_ENGINE.md",
+                "file": "productionboard.canvas",
                 "options": {
-                  "collapse-filter": false,
+                  "collapse-filter": true,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
@@ -62,10 +49,10 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": false,
+                  "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": true,
+                  "collapse-display": true,
+                  "showArrow": false,
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
@@ -79,9 +66,8 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of PROMPT_ENGINE"
-            },
-            "group": "82eeb815e7cdde89"
+              "title": "Graph of productionboard"
+            }
           }
         ]
       }
@@ -216,41 +202,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "99_AI_MEMORY/active_context.md",
+                "file": "productionboard.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of active_context"
-            }
-          },
-          {
-            "id": "90187ea6f7baf71a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "a9e0cf50982f647d",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
+              "title": "Outline of productionboard"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,48 +235,52 @@
       "smart-connections:Toggle Footer Connections": false,
       "smart-connections:Smart Connections: Open random connection": false,
       "smart-lookup:Smart Lookup: Open lookup view": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "smart-templates:Smart Templates: Open template context": false,
+      "smart-context:Smart Context: Open Builder": false,
+      "smart-context:Smart Context: Copy to Clipboard (select depth)": false,
+      "smart-context:Smart Context: List Named Contexts": false
     }
   },
-  "active": "aa50f213ba7a68df",
+  "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
-    "01_NODES/scenes/SCENE_001.md",
+    "03_SYSTEM/CURSOR_HYBRID_GUIDE.md",
+    "productionboard.canvas",
     "03_SYSTEM/PROMPT_ENGINE.md",
-    "03_SYSTEM/DASHBOARD.md",
-    "03_SYSTEM/WORLD_STATE.md",
-    "TEMPLATES/character_template.md",
+    "01_NODES/shots/SHOT_001.md",
+    "01_NODES/scenes/SCENE_001.md",
     "01_NODES/characters/CHAR_001_REN.md",
-    "TEMPLATES/scene_template.md",
+    "01_NODES/lore/LORE_001_GENESIS_PULSE.md",
+    "02_PRODUCTION/review_logs/REVIEW_2026_06_10_SHOT_001.md",
+    "03_SYSTEM/DASHBOARD.md",
+    "03_SYSTEM/CONTINUITY_CHECKLIST.md",
+    "03_SYSTEM/BRAND_GUIDE.md",
+    "01_NODES/events/EVENT_001_FIRST_PULSE_STRIKE.md",
+    "01_NODES/factions/README.md",
+    "01_NODES/shots/SHOT_002.md",
+    "03_SYSTEM/SERIES_PIPELINE.md",
+    "03_SYSTEM/SCENE_EXPANSION_ENGINE.md",
+    "03_SYSTEM/HEALTH_CHECK.md",
+    "03_SYSTEM/PROFESSIONAL_EVALUATION.md",
+    "03_SYSTEM/EPISODE_OPERATING_PROCEDURE.md",
+    "03_SYSTEM/STATUS_ROLLUP.md",
+    "03_SYSTEM/SERIES_STRATEGY.md",
+    "01_NODES/shots/SHOT_005.md",
+    "Templates/CHARACTER_TEMPLATE.md",
+    "03_SYSTEM/PRODUCTION_GUIDE.md",
+    "01_NODES/shots/SHOT_007.md",
+    "03_SYSTEM/WORLD_STATE.md",
+    "SETUP.md",
     "TEMPLATES",
-    "03_SYSTEM/SEASON_EXPORT.md",
-    "03_SYSTEM/templates/scene_template.md",
-    "03_SYSTEM/templates/style_template.md",
-    "03_SYSTEM/templates/character_template.md",
-    "02_ASSETS/exports.md",
-    "02_ASSETS/characters/character_template.md",
     "03_SYSTEM/templates",
-    "02_ASSETS/audio.md",
-    "02_ASSETS/vfx.md",
-    "02_ASSETS/props.md",
     "02_ASSETS/enviroments",
     "02_ASSETS/characters",
-    "03_SYSTEM/EPISODIC_ARCHITECT.md",
     "02_ASSETS/images/SCENE_001.png",
-    "01_NODES/failures/failure_001.md",
-    "TEMPLATES/STYLE_TEMPLATE.md",
-    "TEMPLATES/SCENE_TEMPLATE.md",
-    "TEMPLATES/CHARACTER_TEMPLATE.md",
-    "TEMPLATES/CAMERA_RIG_LIBRARY.md",
-    "03_SYSTEM/STORYBOARD_GEN.md",
-    "03_SYSTEM/SEASON_DIRECTOR.md",
-    "03_SYSTEM/SEASON_OS.md",
     "03_SYSTEM/season_export",
-    "episode_export.md.md",
     "01_NODES/styles",
     "01_NODES/episodes",
     "02_ASSETS/images/scenes",
     "02_ASSETS/images/characters",
-    "02_ASSETS/videos",
-    "Untitled.canvas"
+    "02_ASSETS/videos"
   ]
 }

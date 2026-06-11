@@ -1,21 +1,45 @@
 ---
 type: system
 id: WORLD_STATE
+active_series: Grimverse
+world_name: Grimverse Canon
+timeline: fractured future
+primary_genre: grim_dark
+secondary_genres:
+  - dark_fantasy
+  - post_collapse_sci_fi
+  - noir
+style_lock: GRIMVERSE_STYLE_LOCK
+progression_rule: "Power is visible, but every gain creates a scar, cost, or loss."
+pulse_rule: "The Genesis Pulse disrupts electronics, weakens systems, and exposes hidden human intent."
+forbidden_world_elements:
+  - bright_comedy_tone
+  - casual sci_fi_gadgets
+  - clean heroic triumphs
+  - random lore retcons
+series_bible: "Maintain continuity across arcs, episodes, and shots."
+version: "3.0"
 ---
 
-# 🌐 WORLD LOGIC
+# World State
 
-## Genesis Pulse
-* A Pulse bricks electronics in the affected sector.
-* Fighters fall back to mechanical weapons and un-networked gear.
+## Canon Truths
+- Civilization is degraded and mistrustful.
+- The Genesis Pulse is a persistent destabilizing event.
+- Tech fails in meaningful moments.
+- Power is dangerous and costly.
+- The protagonist may win, but never for free.
 
-## Progression Principle
-* Evolution is physical and visible.
-* Tier 1 = human baseline.
-* Tier 2 = obsidian chitin plates.
-* Tier 4 = neon neural roots up the neck and into hair tracks.
+## Global Continuity Rules
+1. Identity descriptors are locked per character.
+2. Scene purpose must be explicit.
+3. Shot motion must be specific.
+4. Review winners become the canonical version.
+5. Any new lore must not contradict the world bible.
 
-## Hard Rules
-* Never contradict the Pulse rule.
-* Never change a character's baseline without logging it.
-* Keep scene continuity tied to sequence order.
+## Series-Level Visual Rules
+- High contrast
+- Hard silhouette readability
+- Controlled palette
+- Rain, ash, fog, sparks, or dust used sparingly for atmosphere
+- No photorealism unless explicitly marked as an export exception

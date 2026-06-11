@@ -1,41 +1,46 @@
 ---
 type: scene
 id: SCENE_001
+series: Grimverse
+arc: ARC_001
+episode: EP_001
 sequence: 1
-title: "The Zero-Point Mandate"
+title: The Zero-Point Mandate
 status: Planned
 storyboard_status: Planned
+goal: Survive the first Pulse strike and identify the threat.
+conflict: Ren is outnumbered in Sector 7 while the grid collapses.
+stakes: If he fails, the hostile faction gains the first move.
+emotion: controlled dread
+story_function: inciting incident
+visual_anchor: industrial rain alley, rusted awning, dense fog, low-angle confrontation
 characters:
   - [[CHAR_001_REN]]
+  - [[CHAR_002_SERAPH]]
 shots:
   - [[SHOT_001]]
-visual_anchor: "industrial rain alley, rusted awning, dense fog, low-angle confrontation"
-stability: 0.0
-success: 0
-failures: 0
-continuity_score: 0.0
+  - [[SHOT_002]]
+  - [[SHOT_003]]
+continuity_score: 0
+version: "3.0"
 ---
 
-## 🎬 Production Track: SCENE_001
+# Scene 001 — The Zero-Point Mandate
 
-### 1. Narrative Action & Framing
-* **The Concept:** A massive Genesis Pulse drops over Sector 7. Electronics instantly brick. Ren stands under a rusting industrial sector awning while enemies move through the mist behind him.
-* **The Pivot:** Ren draws his tactical combat knife and prepares a precision ambush.
-* **Camera Rig Configuration:** Low-angle wide-angle lens, slow mechanical tracking push forward on Ren.
+## Narrative Action
+Ren realizes the Pulse has hit Sector 7 and the silence in the grid is not accidental.
 
-### 2. Multi-Plane Timeline Map (9:16 Vertical Framing - 24 FPS)
-* **Track 4 (VFX Layer):** Heavy vertical rain streak overlays, translucent wind-blown mist particles, soft red eye glow.
-* **Track 3 (Foreground Character):** Ren beneath the awning, fingers gripped around knife hilt. Delta scale: 100% to 105%.
-* **Track 2 (Midground Assets):** Corrugated rust iron awning edges cutting across top third.
-* **Track 1 (Background Canvas):** Deep urban alleyway fading into dense white rolling fog. Delta scale: 100% to 102%.
+## Visual Plan
+Low-angle, rain-heavy alley composition with strong foreground silhouette separation.
 
-### 3. Audio Architecture Components
-* **Voiceover Layer (Mono):** Ren's internal tactical calculation: *"Pulse confirmed. Grid is bricked. They're coming down the alley right now."*
-* **Foley Sound Layer:** Heavy rain on corrugated metal, wet boot slashes, lightning crackles, knife unsheathing friction.
-* **Score Layer:** Low-frequency sub-bass modular synth drone.
+## Audio Plan
+Rain, metallic hum collapse, distant signal crackle, sub-bass dread.
 
-### 🔗 Linked Characters
-* [[CHAR_001_REN]]
+## Linked Characters
+- [[CHAR_001_REN]]
+- [[CHAR_002_SERAPH]]
 
-### 🔗 Linked Shots
-* [[SHOT_001]]
+## Linked Shots
+- [[SHOT_001]]
+- [[SHOT_002]]
+- [[SHOT_003]]

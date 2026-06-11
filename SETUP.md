@@ -1,44 +1,36 @@
-# OMNI-STUDIO-OS — Setup & Start Guide
+# Setup
 
-## Plugin Requirements
-| Plugin | Setting to enable |
-|---|---|
-| Dataview | Enable JavaScript Queries |
-| Templater | Template folder → `Templates` |
-| Core: Files & Links | Automatically update internal links → ON |
+This project is designed for a hybrid workflow:
 
-## Start Order
-1. Open the vault in Obsidian
-2. Install and enable **Dataview**, turn on **JavaScript Queries**
-3. Install and enable **Templater**, set template folder to `Templates`
-4. Enable **Automatically update internal links** in Settings → Files and links
-5. Open `03_SYSTEM/DASHBOARD.md` — all six tables should render
-6. Open `03_SYSTEM/PROMPT_ENGINE.md` — the prompt output block should render under the heading
-7. Open `03_SYSTEM/VIDEO_ENGINE.md` — the video prompt block should render
+- **Obsidian** = canon, structure, story memory
+- **Cursor** = compilation, validation, packaging, state propagation
 
-## Adding New Shots
-1. Create `01_NODES/shots/SHOT_002.md` from the SHOT_TEMPLATE
-2. Link it in `01_NODES/scenes/SCENE_001.md` frontmatter: add `- [[SHOT_002]]`
-3. Create a matching `02_PRODUCTION/generated_images/SHOT_002_IMG_RUN_001.md` from IMAGE_RUN_TEMPLATE
-4. Log the result in `02_PRODUCTION/run_logs/`
+## Required plugins in Obsidian
+- Dataview
+- Templater
+- Optional: Advanced Tables, Buttons, QuickAdd
 
-## Frontmatter Link Rule (Critical)
-Wiki-links in YAML frontmatter must be **unquoted**:
+## Required Cursor setup
+Create or open the project folder in Cursor and keep these rules available:
+- `.cursor/rules/grimverse_canon.mdc`
+- `.cursor/rules/grimverse_shot_compiler.mdc`
+- `.cursor/rules/grimverse_validation.mdc`
+- `.cursor/rules/grimverse_state_propagation.mdc`
+- `.cursor/rules/grimverse_thumbnail.mdc`
+- `.cursor/rules/grimverse_episode_packager.mdc`
 
-```yaml
-# CORRECT — Dataview resolves this as a link object
-scene: [[SCENE_001]]
-characters:
-  - [[CHAR_001_REN]]
+## Recommended folders
+- `01_NODES/` for canon
+- `02_PRODUCTION/` for runs, packages, reviews
+- `03_SYSTEM/` for guides and dashboards
+- `04_EXPORT/` for final deliverables
 
-# WRONG — Dataview treats this as a plain string; dv.page() returns undefined
-scene: "[[SCENE_001]]"
-characters:
-  - "[[CHAR_001_REN]]"
-```
-
-## Watch Points
-- Never rename a file without checking that Obsidian auto-updates all links (requires the setting above)
-- Never add a new scene without a matching shot note
-- Never write world-rule changes inside prompts — update WORLD_STATE.md instead
-- Keep image and video engine target fields updated when switching shots or scenes
+## Operating rules
+- Every shot must belong to exactly one scene
+- Every scene must belong to exactly one episode
+- Every episode must belong to exactly one arc
+- Every character must have identity anchors and a state node
+- Every run must be scored before promotion
+- Use Cursor to compile shot packages
+- Keep world, event, and state data inside Obsidian
+- Keep final generator prompts short and visual
