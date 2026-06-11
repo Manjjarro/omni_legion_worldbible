@@ -12,17 +12,14 @@
             "id": "be3be4efe8a93d14",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "PODUCTION_BOARD.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "03_SYSTEM/DASHBOARD.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "PODUCTION_BOARD"
+              "icon": "lucide-file",
+              "title": "DASHBOARD"
             }
           }
         ]
@@ -38,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "PODUCTION_BOARD.canvas",
+                "file": "03_SYSTEM/DASHBOARD.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -66,7 +63,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of PODUCTION_BOARD"
+              "title": "Graph of DASHBOARD"
             }
           }
         ]
@@ -202,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PODUCTION_BOARD.canvas",
+                "file": "03_SYSTEM/DASHBOARD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PODUCTION_BOARD"
+              "title": "Outline of DASHBOARD"
             }
           }
         ],
@@ -244,8 +241,8 @@
   },
   "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
-    "03_SYSTEM/CURSOR_HYBRID_GUIDE.md",
     "PODUCTION_BOARD.canvas",
+    "03_SYSTEM/CURSOR_HYBRID_GUIDE.md",
     "03_SYSTEM/PROMPT_ENGINE.md",
     "01_NODES/shots/SHOT_001.md",
     "01_NODES/scenes/SCENE_001.md",
@@ -270,7 +267,6 @@
     "03_SYSTEM/PRODUCTION_GUIDE.md",
     "01_NODES/shots/SHOT_007.md",
     "03_SYSTEM/WORLD_STATE.md",
-    "SETUP.md",
     "TEMPLATES",
     "03_SYSTEM/templates",
     "02_ASSETS/enviroments",
