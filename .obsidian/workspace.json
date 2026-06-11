@@ -14,7 +14,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "productionboard.canvas",
+                "file": "PODUCTION_BOARD.canvas",
                 "viewState": {
                   "x": 0,
                   "y": 0,
@@ -22,7 +22,7 @@
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "productionboard"
+              "title": "PODUCTION_BOARD"
             }
           }
         ]
@@ -38,7 +38,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "productionboard.canvas",
+                "file": "PODUCTION_BOARD.canvas",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -66,7 +66,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of productionboard"
+              "title": "Graph of PODUCTION_BOARD"
             }
           }
         ]
@@ -202,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "productionboard.canvas",
+                "file": "PODUCTION_BOARD.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of productionboard"
+              "title": "Outline of PODUCTION_BOARD"
             }
           }
         ],
@@ -245,7 +245,7 @@
   "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
     "03_SYSTEM/CURSOR_HYBRID_GUIDE.md",
-    "productionboard.canvas",
+    "PODUCTION_BOARD.canvas",
     "03_SYSTEM/PROMPT_ENGINE.md",
     "01_NODES/shots/SHOT_001.md",
     "01_NODES/scenes/SCENE_001.md",
