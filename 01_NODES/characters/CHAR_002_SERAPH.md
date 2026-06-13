@@ -1,47 +1,36 @@
 ---
+id: CHAR_002
 type: character
-id: CHAR_002_SERAPH
-series: Grimverse
+version: "4.3.1"
 name: Seraph
-tier: 2
-status: Antagonist
-weapon: Pulse blade
-identity_anchors:
-- pale ash-blond hair
-- amber eyes
-- fractured halo tattoo
-psychological_anchors:
-- visionary
-- controlling
-- calm under violence
-combat_anchors:
-- tactical strategist
-- mid-range blade combat
-- command pressure
-wardrobe_anchors:
-- layered black coat
-- ceremonial armor fragments
-forbidden_changes:
-- eye color
-- halo tattoo placement
-linked_scenes:
-- SCENE_002
-- SCENE_003
-version: '4.3'
-aliases:
-- CHAR_002_SERAPH
+status:
+  role: Antagonist
+  character_state: Active
+pronouns: she/her
+identity_anchor:
+  hair: silver-white, shoulder-length
+  eyes: violet, slit pupils
+  silhouette: tall, angular armor, asymmetric pauldrons
+  palette: "#C0C0C0 / #6A0DAD / #1A1A2E"
+stability: locked
+last_updated: 2026-06-12
 ---
 
-# Seraph
+## Identity Anchor Notes
 
-## Visual Identity
-A composed antagonist with a ritualized, predatory aesthetic.
+All shot prompts referencing CHAR_002 must include verbatim:
+"silver-white shoulder-length hair, violet slit-pupil eyes, tall angular matte-black armor with asymmetric left pauldron, cool palette #C0C0C0/#6A0DAD"
 
-## Psychological Profile
-He believes order is worth any price.
+Pronoun lock: she/her. Flag any node using "he" as Identity Drift — severity HIGH.
 
-## Combat Profile
-Controls the battlefield, forces others into bad choices.
+## Changelog (v4.3 → v4.3.1)
 
-## Progression
-He grows more dangerous the more stable he appears.
+- `status.lifecycle: Active` removed. Lifecycle values (Planned/Draft/Review/
+  Winner/Complete/Archived) describe shot/scene/episode/event production
+  stages and were never valid on a character node — `Active` was an
+  undeclared value under the old schema.
+- `status.role: Antagonist` retained — this was already correct.
+- `status.character_state: Active` added. This is the field that tracks
+  Seraph's ongoing narrative standing (Active / Wounded / Captured /
+  Deceased / Inactive) independent of her casting role. Update this field,
+  not `role`, when Seraph's in-story status changes.

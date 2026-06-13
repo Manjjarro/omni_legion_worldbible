@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_SYSTEM/DASHBOARD.md",
+                "file": "01_NODES/locations/LOC_003.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DASHBOARD"
+              "title": "LOC_003"
             }
           }
         ]
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "03_SYSTEM/DASHBOARD.md",
+                "file": "01_NODES/locations/LOC_003.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -58,12 +58,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.7132754626224416,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of DASHBOARD"
+              "title": "Graph of LOC_003"
             }
           }
         ]
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03_SYSTEM/DASHBOARD.md",
+                "file": "01_NODES/locations/LOC_003.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DASHBOARD"
+              "title": "Outline of LOC_003"
             }
           }
         ],
@@ -237,6 +237,17 @@
   },
   "active": "be3be4efe8a93d14",
   "lastOpenFiles": [
+    "01_NODES/characters/CHAR_002_SERAPH.md",
+    "01_NODES/locations/LOC_003.md",
+    "01_NODES/state/STATE_001_REN_POST_EP001.md",
+    "03_SYSTEM/DASHBOARD.md",
+    "03_SYSTEM/PATCH_ERRATA_v4.3.1.md",
+    "03_SYSTEM/STATUS_SCHEMA.md",
+    "01_NODES/events/EVENT_001_FIRST_PULSE_STRIKE.md",
+    "01_NODES/events/EVENT_TEMPLATE.md",
+    "Templates/REVIEW_TEMPLATE.md",
+    "Templates/REVIEW_TEMPLATER.md",
+    "03_SYSTEM/CURSOR_RUNTIME.md",
     "PODUCTION_BOARD.canvas",
     "03_SYSTEM/CURSOR_HYBRID_GUIDE.md",
     "03_SYSTEM/PROMPT_ENGINE.md",
@@ -245,24 +256,14 @@
     "01_NODES/characters/CHAR_001_REN.md",
     "01_NODES/lore/LORE_001_GENESIS_PULSE.md",
     "02_PRODUCTION/review_logs/REVIEW_2026_06_10_SHOT_001.md",
-    "03_SYSTEM/DASHBOARD.md",
     "03_SYSTEM/CONTINUITY_CHECKLIST.md",
     "03_SYSTEM/BRAND_GUIDE.md",
-    "01_NODES/events/EVENT_001_FIRST_PULSE_STRIKE.md",
     "01_NODES/factions/README.md",
     "01_NODES/shots/SHOT_002.md",
     "03_SYSTEM/SERIES_PIPELINE.md",
     "03_SYSTEM/SCENE_EXPANSION_ENGINE.md",
     "03_SYSTEM/HEALTH_CHECK.md",
     "03_SYSTEM/PROFESSIONAL_EVALUATION.md",
-    "03_SYSTEM/EPISODE_OPERATING_PROCEDURE.md",
-    "03_SYSTEM/STATUS_ROLLUP.md",
-    "03_SYSTEM/SERIES_STRATEGY.md",
-    "01_NODES/shots/SHOT_005.md",
-    "Templates/CHARACTER_TEMPLATE.md",
-    "03_SYSTEM/PRODUCTION_GUIDE.md",
-    "01_NODES/shots/SHOT_007.md",
-    "03_SYSTEM/WORLD_STATE.md",
     "TEMPLATES",
     "03_SYSTEM/templates",
     "02_ASSETS/enviroments",
